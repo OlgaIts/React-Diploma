@@ -1,0 +1,13 @@
+.sub_title {
+  margin-top: calc(var(--gap) * 2);
+  margin-bottom: var(--gap);
+  font: 500 24px "Roboto", sans-serif;
+}
+
+.item {
+  list-style-type: decimal;
+  padding-bottom: calc(var(--padding) * 2);
+  &:last-child {
+    margin-bottom: calc(var(--gap) * 3);
+  }
+}
