@@ -1,7 +1,7 @@
-import {Title} from "../Title";
-import styles from "./About.module.scss";
+import {Title} from "../../components/Title";
+import styles from "./AboutPage.module.scss";
 
-export const About = () => {
+export const AboutPage = () => {
   return (
     <main className='container'>
       <Title tag='h2' isCentered>
@@ -51,4 +51,4 @@ export const About = () => {
     </main>
   );
 };
-About.displayName = "About";
+AboutPage.displayName = "AboutPage";

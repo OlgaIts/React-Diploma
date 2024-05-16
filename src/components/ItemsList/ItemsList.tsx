@@ -1,4 +1,4 @@
-import {Button} from "../../../Button";
+import {Button} from "../Button";
 import styles from "./ItemsList.module.scss";
 
 // interface ItemsListProps {
@@ -14,7 +14,9 @@ export const ItemsList = ({list}) => {
           <div className={styles.content}>
             <p className={styles.text}>{item.title}</p>
             <p className={styles.text}>{`${item.price} руб.`}</p>
-            <Button href='#' className={styles.btn}>Заказать</Button>
+            <Button href='#' className={styles.btn}>
+              Заказать
+            </Button>
           </div>
         </li>
       ))}

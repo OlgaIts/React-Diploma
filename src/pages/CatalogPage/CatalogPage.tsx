@@ -1,14 +1,14 @@
 /* eslint-disable react/no-unescaped-entities */
 import {memo, useEffect, useState} from "react";
-import {Title} from "../Title";
+import {Title} from "../../components/Title";
 import {CategoriesList} from "./components/CategoriesList/CategoriesList";
-import styles from "./Catalog.module.scss";
-import {ItemsList} from "./components/ItemsList/ItemsList";
-import {Button} from "../Button";
+import {ItemsList} from "../../components/ItemsList/ItemsList";
+import {Button} from "../../components/Button";
+import styles from "./CatalogPage.module.scss";
 
 const url = "http://localhost:7070";
 
-export const Catalog = memo(() => {
+export const CatalogPage = memo(() => {
   const [category, setCategory] = useState([]);
   const [list, setList] = useState([]);
   // const [selected, setSelected] = useState(category[0]);
@@ -47,4 +47,4 @@ export const Catalog = memo(() => {
     </section>
   );
 });
-Catalog.displayName = "Catalog";
+CatalogPage.displayName = "CatalogPage";
