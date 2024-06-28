@@ -1,0 +1,19 @@
+.component {
+  width: 100%;
+  border-collapse: collapse;
+}
+.row {
+  display: grid;
+  grid-template-columns: 50px repeat(6, 1fr);
+  text-align: left;
+}
+.col {
+  padding: 10px;
+  border: var(--border);
+}
+
+.footer {
+  border: var(--border);
+  text-align: end;
+  padding: 10px;
+}

@@ -1,27 +1,16 @@
 import {memo} from "react";
-import styles from "./Header.module.scss";
+import {Nav} from "../Nav/Nav";
 import logo from "../../img/header-logo.png";
-
-const menuItems = ["Главная", "Каталог", "О магазине", "Контакты"];
+import styles from "./Header.module.scss";
 
 export const Header = memo(() => {
   return (
     <header className={styles.component}>
       <div className={styles.wrapper}>
         <a href='/'>
-          <img src={logo} alt='Bosa Noga' className={styles["navbar-brand"]} />
+          <img src={logo} alt='Logo Bosa Noga' />
         </a>
-        <nav className={styles.navbar}>
-          <ul className={styles["navbar-nav"]}>
-            {menuItems.map((item) => (
-              <li key={item} className={styles["nav-item"]}>
-                <a className={styles["nav-link"]} href='/'>
-                  {item}
-                </a>
-              </li>
-            ))}
-          </ul>
-        </nav>
+        <Nav />
       </div>
       <div>
         <div className={styles["header-controls-pics"]}>
