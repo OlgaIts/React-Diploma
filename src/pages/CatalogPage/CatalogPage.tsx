@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import {memo, useEffect, useState} from "react";
 import {Title} from "../../components/Title";
-import {CategoriesList} from "./components/CategoriesList/CategoriesList";
+import {CategoriesList} from "./components/";
 import {ItemsList} from "../../components/ItemsList/ItemsList";
 import {Button} from "../../components/Button";
 import styles from "./CatalogPage.module.scss";

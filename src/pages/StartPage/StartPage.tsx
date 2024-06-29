@@ -1,7 +1,8 @@
 import {memo} from "react";
-// import styles from "./StartPage.module.scss";
-import {Preloader} from "../../components/Preloader";
-import {TopSales} from "../../components/TopSales";
+import {TopSales} from "./components";
+import {Title} from "../../components/Title";
+import {Button} from "../../components/Button";
+import styles from "./StartPage.module.scss";
 
 export const StartPage = memo(() => {
   return (
@@ -9,8 +10,10 @@ export const StartPage = memo(() => {
       <main className='container'>
         <TopSales />
         <section className='catalog'>
-          <h2 className='text-center'>Каталог</h2>
-          <Preloader />
+          <Title tag='h2' isCentered>
+            Каталог
+          </Title>
+          <Button className={styles.btn}>Загрузить ещё</Button>
         </section>
       </main>
     </>
