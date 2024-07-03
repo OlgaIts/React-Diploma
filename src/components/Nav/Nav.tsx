@@ -13,7 +13,14 @@ export const Nav = () => {
     <ul className={styles.nav}>
       {navItems.map(({label, link}) => (
         <li key={label}>
-          <NavLink to={link}>{label}</NavLink>
+          <NavLink
+            to={link}
+            className={({isActive}: {isActive: boolean}) =>
+              isActive ? styles.active : ""
+            }
+          >
+            {label}
+          </NavLink>
         </li>
       ))}
     </ul>

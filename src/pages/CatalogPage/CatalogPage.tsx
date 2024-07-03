@@ -6,7 +6,7 @@ import {ItemsList} from "../../components/ItemsList/ItemsList";
 import {Button} from "../../components/Button";
 import styles from "./CatalogPage.module.scss";
 
-const url = "http://localhost:7070";
+const url = import.meta.env.VITE_BASE_API_URL;
 
 export const CatalogPage = memo(() => {
   const [category, setCategory] = useState([]);

@@ -1,4 +1,5 @@
 import {memo} from "react";
+import {Link} from "react-router-dom";
 import {Nav} from "../Nav/Nav";
 import logo from "../../img/header-logo.png";
 import styles from "./Header.module.scss";
@@ -7,9 +8,9 @@ export const Header = memo(() => {
   return (
     <header className={styles.component}>
       <div className={styles.wrapper}>
-        <a href='/'>
+        <Link to='/'>
           <img src={logo} alt='Logo Bosa Noga' />
-        </a>
+        </Link>
         <Nav />
       </div>
       <div>

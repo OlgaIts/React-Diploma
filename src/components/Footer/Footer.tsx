@@ -1,5 +1,7 @@
 import {memo} from "react";
 import {Title} from "../Title";
+import {FooterNav} from "./components";
+import classNames from "classnames";
 import styles from "./Footer.module.scss";
 
 export const Footer = memo(() => {
@@ -9,17 +11,7 @@ export const Footer = memo(() => {
         <Title tag='h5' className={styles.title}>
           Информация
         </Title>
-        <ul className={styles.nav}>
-          <li>
-            <a href='#'>О магазине</a>
-          </li>
-          <li>
-            <a href='#'>Каталог</a>
-          </li>
-          <li>
-            <a href='#'>Контакты</a>
-          </li>
-        </ul>
+        <FooterNav />
       </section>
       <div className={styles.col}>
         <section>
@@ -27,12 +19,12 @@ export const Footer = memo(() => {
             Принимаем к оплате:
           </Title>
           <div className={styles.pay_sistems}>
-            <div className={`${styles.pay} ${styles.paypal}`}></div>
-            <div className={`${styles.pay} ${styles.master_card}`}></div>
-            <div className={`${styles.pay} ${styles.visa}`}></div>
-            <div className={`${styles.pay} ${styles.yandex}`}></div>
-            <div className={`${styles.pay} ${styles.webmoney}`}></div>
-            <div className={`${styles.pay} ${styles.qiwi}`}></div>
+            <div className={classNames(styles.pay, styles.paypal)}></div>
+            <div className={classNames(styles.pay, styles.master_card)}></div>
+            <div className={classNames(styles.pay, styles.visa)}></div>
+            <div className={classNames(styles.pay, styles.yandex)}></div>
+            <div className={classNames(styles.pay, styles.webmoney)}></div>
+            <div className={classNames(styles.pay, styles.qiwi)}></div>
           </div>
         </section>
         <section>
@@ -45,7 +37,7 @@ export const Footer = memo(() => {
         </section>
       </div>
 
-      <section className={`${styles.col} ${styles.text_right}`}>
+      <section className={classNames(styles.col, styles.text_right)}>
         <Title tag='h5' className={styles.title}>
           Контакты:
         </Title>
@@ -57,8 +49,8 @@ export const Footer = memo(() => {
           office@bosanoga.ru
         </a>
         <div className={styles.social}>
-          <div className={`${styles.social_link} ${styles.twitter}`}></div>
-          <div className={`${styles.social_link} ${styles.vk}`}></div>
+          <div className={classNames(styles.social_link, styles.twitter)}></div>
+          <div className={classNames(styles.social_link, styles.vk)}></div>
         </div>
       </section>
     </footer>
