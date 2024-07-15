@@ -4,8 +4,8 @@
     "category": 13,
     "title": "Туфли летние BELWEST",
     "images": [
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/20.jpg",
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/20_a.jpg"
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/20.jpg",
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/20_a.jpg"
     ],
     "sku": "1000000",
     "manufacturer": "BELWEST",
@@ -73,8 +73,8 @@
     "category": 13,
     "title": "Кеды с кошками",
     "images": [
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/22.jpg",
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/22_a.jpg"
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/22.jpg",
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/22_a.jpg"
     ],
     "sku": "1000002",
     "manufacturer": "BELWEST",
@@ -255,8 +255,8 @@
     "category": 13,
     "title": "Сложная геометрия",
     "images": [
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/27.jpg",
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/27_a.jpg"
+      "https://github.com/OlgaIts/React-Diploma/blob/master/src/img/products/27.jpg",
+      "https://github.com/OlgaIts/React-Diploma/blob/master/src/img/products/27_a.jpg"
     ],
     "sku": "1000007",
     "manufacturer": "JACQUEMUS",
@@ -1063,8 +1063,8 @@
     "category": 12,
     "title": "Ботинки Camelot",
     "images": [
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/49.jpg",
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/49_a.jpg"
+      "https://github.com/OlgaIts/React-Diploma/blob/master/src/img/products/49.jpg",
+      "htthttps://github.com/OlgaIts/React-Diploma/blob/master/src/img/products/49_a.jpg"
     ],
     "sku": "1000029",
     "manufacturer": "Camelot",
