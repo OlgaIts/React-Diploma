@@ -1,12 +1,13 @@
 .btn {
+  padding: var(--padding);
   display: grid;
   place-content: center;
-  padding: var(--padding);
   border: var(--border);
   background-color: var(--color-white);
   border-radius: var(--radius);
   outline: none;
   transition: all 0.3s ease-in-out;
+  cursor: pointer;
 
   &:hover {
     background-color: var(--color);

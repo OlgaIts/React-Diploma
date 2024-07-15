@@ -8,7 +8,7 @@ const koaBody = require("koa-body");
 
 const categories = JSON.parse(fs.readFileSync("./data/categories.json"));
 const items = JSON.parse(fs.readFileSync("./data/products.json"));
-const topSaleIds = [66, 65, 73];
+const topSaleIds = [27, 22, 49];
 const moreCount = 6;
 
 const itemBasicMapper = (item) => ({
@@ -64,8 +64,8 @@ router.get("/api/categories", async (ctx, next) => {
 });
 
 router.get("/api/items", async (ctx, next) => {
+  // /api/items/?offset=6&categoryId=3 --> query.offset, query.categoryId
   const {query} = ctx.request;
-
   const categoryId =
     query.categoryId === undefined ? 0 : Number(query.categoryId);
   const offset = query.offset === undefined ? 0 : Number(query.offset);
@@ -76,7 +76,7 @@ router.get("/api/items", async (ctx, next) => {
     .filter(
       (o) => o.title.toLowerCase().includes(q) || o.color.toLowerCase() === q,
     )
-    .slice(offset, offset + moreCount)
+    .slice(offset, offset + moreCount) // findAll(id).offset(6).limit(6)
     .map(itemBasicMapper);
 
   return fortune(ctx, filtered);

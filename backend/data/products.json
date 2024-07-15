@@ -59,7 +59,9 @@
     "category": 13,
     "title": "Туфли с окошечками",
     "images": [
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/shoes_with_windows.jpg"
+      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/shoes_with_windows.jpg",
+      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/shoes_with_windows_1.jpg",
+      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/shoes_with_windows_2.jpg"
     ],
     "sku": "1000002",
     "manufacturer": "Dolce & Gabbana",
@@ -1215,7 +1217,7 @@
   {
     "id": 65,
     "category": 15,
-    "title": "Босоножки 'Keira'",
+    "title": "Босонож 'Keiraки'",
     "images": [
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/sandals_keira.jpg",
       "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/html/img/products/sandals_keira_2.jpg"

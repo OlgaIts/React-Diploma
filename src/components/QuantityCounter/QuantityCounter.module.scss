@@ -1,0 +1,27 @@
+.btn {
+  width: 24px;
+  height: 30px;
+  padding: 5px;
+  background-color: var(--color);
+  color: #fff;
+  border: 1px solid var(--color);
+  outline: none;
+  cursor: pointer;
+  &:hover {
+    background-color: #474747;
+  }
+}
+
+.input {
+  width: 34px;
+  height: 30px;
+  padding: 5px;
+  text-align: center;
+  border: none;
+  border-top: 1px solid var(--color);
+  border-bottom: 1px solid var(--color);
+  &::-webkit-outer-spin-button,
+  &::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+}
