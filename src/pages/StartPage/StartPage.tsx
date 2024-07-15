@@ -13,6 +13,7 @@ export const StartPage = memo(() => {
           <Title tag='h2' isCentered>
             Каталог
           </Title>
+          
           <Button className={styles.btn}>Загрузить ещё</Button>
         </section>
       </main>

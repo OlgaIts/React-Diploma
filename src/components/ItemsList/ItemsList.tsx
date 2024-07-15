@@ -1,4 +1,4 @@
-import {Button} from "../Button";
+import { Link } from "react-router-dom";
 import styles from "./ItemsList.module.scss";
 
 // interface ItemsListProps {
@@ -14,9 +14,9 @@ export const ItemsList = ({list}) => {
           <div className={styles.content}>
             <p className={styles.text}>{item.title}</p>
             <p className={styles.text}>{`${item.price} руб.`}</p>
-            <Button href='#' className={styles.btn}>
+            <Link to={`/product/${item.id}`} className={styles.btn}>
               Заказать
-            </Button>
+            </Link>
           </div>
         </li>
       ))}

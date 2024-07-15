@@ -1,3 +1,4 @@
+import {NavLink, useSearchParams} from "react-router-dom";
 import styles from "./CategoriesList.module.scss";
 
 type Item = {
@@ -9,11 +10,20 @@ interface CategoriesListProps {
   list: Item[];
 }
 export const CategoriesList = ({list}: CategoriesListProps) => {
+  const categoryList = [{id: 11, title: "Все"}, ...list];
+  const [searchParams] = useSearchParams(); // quary параметры, которые идут после вопросительного знака
+  const currentCategory = searchParams.get("categoryId"); // Map {categoryId: 13, offset: 60} currentCategory.categoryId // currentCategory.get('categoryId')
+
   return (
     <ul className={styles.list}>
-      {list.map((item) => (
+      {categoryList.map((item) => (
         <li className={styles.item} key={item.id}>
-          <a href='#'>{item.title}</a>
+          <NavLink
+            to={`/catalog/?categoryId=${item.id}`}
+            className={item.id === Number(currentCategory) ? styles.active : ""}
+          >
+            {item.title}
+          </NavLink>
         </li>
       ))}
     </ul>

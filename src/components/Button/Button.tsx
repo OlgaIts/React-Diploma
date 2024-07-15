@@ -6,7 +6,6 @@ interface ButtonProps {
   className?: string;
   href?: string;
   onClick?: () => void;
-  // type
 }
 export const Button = ({children, className, href, onClick}: ButtonProps) => {
   return (
