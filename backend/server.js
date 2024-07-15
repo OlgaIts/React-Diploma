@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 const http = require("http");
 const fs = require("fs");
 const Koa = require("koa");

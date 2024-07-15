@@ -41,8 +41,8 @@
     "category": 13,
     "title": "Кеды с принтом BELWEST",
     "images": [
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/21.jpg",
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/21_a.jpg"
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/21.jpg",
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/21_a.jpg"
     ],
     "sku": "1000001",
     "manufacturer": "BELWEST",
@@ -109,8 +109,8 @@
     "category": 13,
     "title": "Туфли летние BELWEST",
     "images": [
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/pharrell_williams_sneakers_2.jpg",
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/pharrell_williams_sneakers.jpg"
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/pharrell_williams_sneakers_2.jpg",
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/pharrell_williams_sneakers.jpg"
     ],
     "sku": "1000003",
     "manufacturer": "BELWEST",
@@ -145,8 +145,8 @@
     "category": 13,
     "title": "Туфли с пряжкой",
     "images": [
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/24.jpg",
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/24_a.jpg"
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/24.jpg",
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/24_a.jpg"
     ],
     "sku": "1000004",
     "manufacturer": "BELWEST",
@@ -181,8 +181,8 @@
     "category": 13,
     "title": "Бархатные туфли в стиле Мери Джейн с камнями",
     "images": [
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/25.jpg",
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/25_a.jpg"
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/25.jpg",
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/25_a.jpg"
     ],
     "sku": "1000005",
     "manufacturer": "Dolce & Gabbana",
@@ -218,8 +218,8 @@
     "category": 13,
     "title": "Розовые шлёпки на каблуке",
     "images": [
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/26.jpg",
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/26_a.jpg"
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/26.jpg",
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/26_a.jpg"
     ],
     "sku": "1000006",
     "manufacturer": "MANSUR GAVRIEL",
@@ -292,7 +292,7 @@
     "category": 13,
     "title": "Утро кондуктора",
     "images": [
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/28.jpg"
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/28.jpg"
     ],
     "sku": "1000008",
     "manufacturer": "MARC ELLIS",
@@ -328,8 +328,8 @@
     "category": 13,
     "title": "Сетчатая душа",
     "images": [
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/29.jpg",
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/29_a.jpg"
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/29.jpg",
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/29_a.jpg"
     ],
     "sku": "1000009",
     "manufacturer": "JIMMY CHOO",
@@ -365,8 +365,8 @@
     "category": 13,
     "title": "Неодизайн",
     "images": [
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/30.jpg",
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/30_a.jpg"
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/30.jpg",
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/30_a.jpg"
     ],
     "sku": "1000010",
     "manufacturer": "REIKE NEN",
@@ -402,8 +402,8 @@
     "category": 13,
     "title": "Босонож 'Keiraки'",
     "images": [
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/31.jpg",
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/31_a.jpg"
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/31.jpg",
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/31_a.jpg"
     ],
     "sku": "1000011",
     "manufacturer": "DOLCE & GABBANA",
@@ -439,8 +439,8 @@
     "category": 13,
     "title": "Туфли принцессы",
     "images": [
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/32.jpg",
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/32_a.jpg"
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/32.jpg",
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/32_a.jpg"
     ],
     "sku": "1000012",
     "manufacturer": "DOLCE & GABBANA",
@@ -476,8 +476,8 @@
     "category": 13,
     "title": "Розовая тигрица",
     "images": [
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/33.jpg",
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/33_a.jpg"
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/33.jpg",
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/33_a.jpg"
     ],
     "sku": "1000013",
     "manufacturer": "Nº21",
@@ -513,8 +513,8 @@
     "category": 13,
     "title": "Босоножки 'Myer' с завязкой на щиколотке",
     "images": [
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/34.jpg",
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/34_a.jpg"
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/34.jpg",
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/34_a.jpg"
     ],
     "sku": "1000014",
     "manufacturer": "PAUL ANDREW",
@@ -550,8 +550,8 @@
     "category": 13,
     "title": "сандалии BETTY в сеточку",
     "images": [
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/35.jpg",
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/35_a.jpg"
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/35.jpg",
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/35_a.jpg"
     ],
     "sku": "1000015",
     "manufacturer": "Tendance",
@@ -587,8 +587,8 @@
     "category": 13,
     "title": "Босоножки плетёные",
     "images": [
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/36.jpg",
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/36_a.jpg"
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/36.jpg",
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/36_a.jpg"
     ],
     "sku": "1000016",
     "manufacturer": "Tendance",
@@ -624,7 +624,7 @@
     "category": 13,
     "title": "Модная доярка",
     "images": [
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/37.jpg"
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/37.jpg"
     ],
     "sku": "1000017",
     "manufacturer": "Tendance",
@@ -660,8 +660,8 @@
     "category": 13,
     "title": "Шальная императрица",
     "images": [
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/38.jpg",
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/38_a.jpg"
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/38.jpg",
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/38_a.jpg"
     ],
     "sku": "1000018",
     "manufacturer": "LORIBLU",
@@ -697,8 +697,8 @@
     "category": 13,
     "title": "Подруга шальной императрицы",
     "images": [
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/39.jpg",
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/39_a.jpg"
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/39.jpg",
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/39_a.jpg"
     ],
     "sku": "1000019",
     "manufacturer": "TENDANCE",
@@ -734,7 +734,7 @@
     "category": 13,
     "title": "Сандалии Круэлла",
     "images": [
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/40.jpg"
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/40.jpg"
     ],
     "sku": "1000020",
     "manufacturer": "TENDANCE",
@@ -770,8 +770,8 @@
     "category": 13,
     "title": "туфли со стразами",
     "images": [
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/41.jpg",
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/41_a.jpg"
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/41.jpg",
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/41_a.jpg"
     ],
     "sku": "1000021",
     "manufacturer": "TENDANCE",
@@ -807,8 +807,8 @@
     "category": 13,
     "title": "Босоножки LORIBLU на шпильках",
     "images": [
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/42.jpg",
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/42_a.jpg"
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/42.jpg",
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/42_a.jpg"
     ],
     "sku": "1000022",
     "manufacturer": "LORIBLU",
@@ -844,7 +844,7 @@
     "category": 13,
     "title": "Мюли LADYJ",
     "images": [
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/43.jpg"
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/43.jpg"
     ],
     "sku": "1000023",
     "manufacturer": "JUST CAVALLI",
@@ -880,8 +880,8 @@
     "category": 13,
     "title": "Босоножки с бантом",
     "images": [
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/44.jpg",
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/44_a.jpg"
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/44.jpg",
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/44_a.jpg"
     ],
     "sku": "1000024",
     "manufacturer": "THE MARC JACOBS",
@@ -917,8 +917,8 @@
     "category": 13,
     "title": "Туфли",
     "images": [
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/45.jpg",
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/45_a.jpg"
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/45.jpg",
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/45_a.jpg"
     ],
     "sku": "1000025",
     "manufacturer": "TENDANCE",
@@ -954,8 +954,8 @@
     "category": 12,
     "title": "Кроссовки ASICS для бега по пересеченной местности",
     "images": [
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/46.jpg",
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/46_a.jpg"
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/46.jpg",
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/46_a.jpg"
     ],
     "sku": "1000026",
     "manufacturer": "GEL-SONOMA™ 7 GTX",
@@ -990,8 +990,8 @@
     "category": 12,
     "title": "Элегантные кроссовки Clarks",
     "images": [
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/47.jpg",
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/47_a.jpg"
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/47.jpg",
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/47_a.jpg"
     ],
     "sku": "1000027",
     "manufacturer": "Clarks",
@@ -1026,8 +1026,8 @@
     "category": 12,
     "title": "Кроссовки для бега Bondi 8",
     "images": [
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/48.jpg",
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/48_a.jpg"
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/48.jpg",
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/48_a.jpg"
     ],
     "sku": "1000028",
     "manufacturer": "HOKA",
@@ -1100,8 +1100,8 @@
     "category": 12,
     "title": "кроссовки ARMANI EXCHANGE",
     "images": [
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/50.jpg",
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/50_a.jpg"
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/50.jpg",
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/50_a.jpg"
     ],
     "sku": "1000030",
     "manufacturer": "ARMANI EXCHANGE",
@@ -1136,8 +1136,8 @@
     "category": 12,
     "title": "Розовый бунтарь",
     "images": [
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/51.jpg",
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/51_a.jpg"
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/51.jpg",
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/51_a.jpg"
     ],
     "sku": "1000031",
     "manufacturer": "GUIDI",
@@ -1173,8 +1173,8 @@
     "category": 12,
     "title": "Кроссовки CALVIN KLEIN JEANS PHUKET",
     "images": [
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/52.jpg",
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/52_a.jpg"
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/52.jpg",
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/52_a.jpg"
     ],
     "sku": "1000032",
     "manufacturer": "Calvin Klein Jeans",
@@ -1209,8 +1209,8 @@
     "category": 12,
     "title": "Мужские лоферы TENDANCE",
     "images": [
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/53.jpg",
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/53_a.jpg"
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/53.jpg",
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/53_a.jpg"
     ],
     "sku": "1000033",
     "manufacturer": "TENDANCE",
@@ -1245,8 +1245,8 @@
     "category": 12,
     "title": "вьетнамки CARTAGO FIJI IV THONG AD",
     "images": [
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/54.jpg",
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/54_a.jpg"
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/54.jpg",
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/54_a.jpg"
     ],
     "sku": "1000034",
     "manufacturer": "CARTAGO",
@@ -1282,8 +1282,8 @@
     "category": 12,
     "title": "Мужские кроссовки ARMANI EXCHANGE DUSSELDORF",
     "images": [
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/55.jpg",
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/55_a.jpg"
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/55.jpg",
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/55_a.jpg"
     ],
     "sku": "1000035",
     "manufacturer": "ARMANI EXCHANGE",
@@ -1318,8 +1318,8 @@
     "category": 12,
     "title": "Кеды CONVERSE Chuck Taylor All Star Core",
     "images": [
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/56.jpg",
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/56_a.jpg"
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/56.jpg",
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/56_a.jpg"
     ],
     "sku": "1000036",
     "manufacturer": "CONVERSE",
@@ -1355,8 +1355,8 @@
     "category": 12,
     "title": "кеды TOMMY HILFIGER HARLOW 1D",
     "images": [
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/57.jpg",
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/57_a.jpg"
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/57.jpg",
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/57_a.jpg"
     ],
     "sku": "1000037",
     "manufacturer": "TOMMY HILFIGER",
@@ -1392,7 +1392,7 @@
     "category": 12,
     "title": "Мужские сандалии MAISON DAVID",
     "images": [
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/58.jpg"
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/58.jpg"
     ],
     "sku": "1000038",
     "manufacturer": "MAISON DAVID",
@@ -1428,7 +1428,7 @@
     "category": 12,
     "title": "Кроссовки ADIDAS OZELIA",
     "images": [
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/59.jpg"
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/59.jpg"
     ],
     "sku": "1000039",
     "manufacturer": "ADIDAS",
@@ -1464,8 +1464,8 @@
     "category": 12,
     "title": "Мужские кроссовки ARMANI EXCHANGE BRONX",
     "images": [
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/60.jpg",
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/60_a.jpg"
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/60.jpg",
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/60_a.jpg"
     ],
     "sku": "1000040",
     "manufacturer": "ARMANI EXCHANGE",
@@ -1500,8 +1500,8 @@
     "category": 12,
     "title": "Мужские лоферы TENDANCE",
     "images": [
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/61.jpg",
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/61_a.jpg"
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/61.jpg",
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/61_a.jpg"
     ],
     "sku": "1000041",
     "manufacturer": "TENDANCE",
@@ -1537,8 +1537,8 @@
     "category": 12,
     "title": "шлепанцы BIO GREEN",
     "images": [
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/62.jpg",
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/62_a.jpg"
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/62.jpg",
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/62_a.jpg"
     ],
     "sku": "1000042",
     "manufacturer": "BIO GREEN",
@@ -1574,8 +1574,8 @@
     "category": 14,
     "title": "Высокие кеды",
     "images": [
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/63.jpg",
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/63_a.jpg"
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/63.jpg",
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/63_a.jpg"
     ],
     "sku": "1000043",
     "manufacturer": "TENDANCE",
@@ -1611,7 +1611,7 @@
     "category": 14,
     "title": "Кеды с насекомым",
     "images": [
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/64.jpg"
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/64.jpg"
     ],
     "sku": "1000044",
     "manufacturer": "Dolce & Gabbana",
@@ -1647,8 +1647,8 @@
     "category": 14,
     "title": "кеды Chuck Taylor All Star Madison",
     "images": [
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/65.jpg",
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/65_a.jpg"
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/65.jpg",
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/65_a.jpg"
     ],
     "sku": "1000045",
     "manufacturer": "CONVERSE",
@@ -1684,7 +1684,7 @@
     "category": 14,
     "title": "Лоферы-шмоферы",
     "images": [
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/66.jpg"
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/66.jpg"
     ],
     "sku": "1000046",
     "manufacturer": "TENDANCE",
@@ -1720,8 +1720,8 @@
     "category": 14,
     "title": "Эспадрильи",
     "images": [
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/67.jpg",
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/67_a.jpg"
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/67.jpg",
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/67_a.jpg"
     ],
     "sku": "1000047",
     "manufacturer": "LA MAISON DE L'ESPADRILLE",
@@ -1757,8 +1757,8 @@
     "category": 14,
     "title": "кеды Albenga",
     "images": [
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/68.jpg",
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/68_a.jpg"
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/68.jpg",
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/68_a.jpg"
     ],
     "sku": "1000048",
     "manufacturer": "THIERRY RABOTIN",
@@ -1794,8 +1794,8 @@
     "category": 14,
     "title": "кеды MAISON DAVID",
     "images": [
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/69.jpg",
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/69_a.jpg"
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/69.jpg",
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/69_a.jpg"
     ],
     "sku": "1000049",
     "manufacturer": "MAISON DAVID",
@@ -1831,7 +1831,7 @@
     "category": 14,
     "title": "кроссовки-носки",
     "images": [
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/70.jpg"
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/70.jpg"
     ],
     "sku": "1000050",
     "manufacturer": "TENDANCE",
@@ -1867,8 +1867,8 @@
     "category": 14,
     "title": "Замшевые кроссы",
     "images": [
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/71.jpg",
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/71_a.jpg"
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/71.jpg",
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/71_a.jpg"
     ],
     "sku": "1000051",
     "manufacturer": "TENDANCE",
@@ -1904,8 +1904,8 @@
     "category": 14,
     "title": "Слиперы",
     "images": [
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/72.jpg",
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/72_a.jpg"
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/72.jpg",
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/72_a.jpg"
     ],
     "sku": "1000052",
     "manufacturer": "TENDANCE",
@@ -1941,8 +1941,8 @@
     "category": 14,
     "title": "Кроссовки",
     "images": [
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/73.jpg",
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/73_a.jpg"
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/73.jpg",
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/73_a.jpg"
     ],
     "sku": "1000053",
     "manufacturer": "TENDANCE",
@@ -1978,7 +1978,7 @@
     "category": 14,
     "title": "Кроссовки Новый Баланс",
     "images": [
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/74.jpg"
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/74.jpg"
     ],
     "sku": "1000054",
     "manufacturer": "New Balance",
@@ -2014,7 +2014,7 @@
     "category": 14,
     "title": "кеды ASH STARLIGHT",
     "images": [
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/75.jpg"
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/75.jpg"
     ],
     "sku": "1000055",
     "manufacturer": "Ash",
@@ -2050,8 +2050,8 @@
     "category": 14,
     "title": "Кеды синий Лори",
     "images": [
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/76.jpg",
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/76_a.jpg"
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/76.jpg",
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/76_a.jpg"
     ],
     "sku": "1000056",
     "manufacturer": "LORIBLU",
@@ -2087,8 +2087,8 @@
     "category": 14,
     "title": "кеды ADIDAS SUPERSTAR W",
     "images": [
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/77.jpg",
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/77_a.jpg"
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/77.jpg",
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/77_a.jpg"
     ],
     "sku": "1000057",
     "manufacturer": "ADIDAS",
@@ -2124,7 +2124,7 @@
     "category": 15,
     "title": "резиновые сапоги с динозаврами",
     "images": [
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/78.jpg"
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/78.jpg"
     ],
     "sku": "1000058",
     "manufacturer": "KAPIKA",
@@ -2160,8 +2160,8 @@
     "category": 15,
     "title": "резиновые сапоги с котёнком",
     "images": [
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/79.jpg",
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/79_a.jpg"
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/79.jpg",
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/79_a.jpg"
     ],
     "sku": "1000059",
     "manufacturer": "KAPIKA",
@@ -2197,7 +2197,7 @@
     "category": 15,
     "title": "резиновые сапоги с сердечками",
     "images": [
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/80.jpg"
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/80.jpg"
     ],
     "sku": "1000060",
     "manufacturer": "KAPIKA",
@@ -2233,7 +2233,7 @@
     "category": 15,
     "title": "сланцы IPANEMA URBAN IV SLIDE KIDS",
     "images": [
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/81.jpg"
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/81.jpg"
     ],
     "sku": "1000061",
     "manufacturer": "Ipanema",
@@ -2269,8 +2269,8 @@
     "category": 15,
     "title": "Детские кроссовки со светящейся подошвой GEOX B TODO BOY",
     "images": [
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/82.jpg",
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/82_a.jpg"
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/82.jpg",
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/82_a.jpg"
     ],
     "sku": "1000062",
     "manufacturer": "Geox",
@@ -2306,7 +2306,7 @@
     "category": 15,
     "title": "Детские сандалии J GHITA BOY с Марио",
     "images": [
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/83.jpg"
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/83.jpg"
     ],
     "sku": "1000063",
     "manufacturer": "Geox",
@@ -2342,7 +2342,7 @@
     "category": 15,
     "title": "Детские кроссовки Lomalla на липучках",
     "images": [
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/84.jpg"
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/84.jpg"
     ],
     "sku": "1000064",
     "manufacturer": "LASSIE",
@@ -2378,7 +2378,7 @@
     "category": 15,
     "title": "Супергеройские кеды",
     "images": [
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/85.jpg"
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/85.jpg"
     ],
     "sku": "1000065",
     "manufacturer": "Vans",
@@ -2414,8 +2414,8 @@
     "category": 15,
     "title": "Детские кеды KILWI GIRL",
     "images": [
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/86.jpg",
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/86_a.jpg"
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/86.jpg",
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/86_a.jpg"
     ],
     "sku": "1000066",
     "manufacturer": "GEOX",
@@ -2451,8 +2451,8 @@
     "category": 15,
     "title": "Детские туфли LIPA",
     "images": [
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/87.jpg",
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/87_a.jpg"
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/87.jpg",
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/87_a.jpg"
     ],
     "sku": "1000067",
     "manufacturer": "TENDANCE",
@@ -2488,7 +2488,7 @@
     "category": 15,
     "title": "Детские сандалии Stelee",
     "images": [
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/88.jpg"
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/88.jpg"
     ],
     "sku": "1000068",
     "manufacturer": "LASSIE",
@@ -2524,7 +2524,7 @@
     "category": 15,
     "title": "Детские кроссовки-носки BREEZE 3.0 G",
     "images": [
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/89.jpg"
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/89.jpg"
     ],
     "sku": "1000069",
     "manufacturer": "OUTVENTURE",
@@ -2560,8 +2560,8 @@
     "category": 15,
     "title": "Детские сандалии NILS G",
     "images": [
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/90.jpg",
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/90_a.jpg"
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/90.jpg",
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/90_a.jpg"
     ],
     "sku": "1000070",
     "manufacturer": "NORTHLAND",
@@ -2597,7 +2597,7 @@
     "category": 15,
     "title": "Детские сандалии J SANDAL FUSBETTO GI",
     "images": [
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/91.jpg"
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/91.jpg"
     ],
     "sku": "1000071",
     "manufacturer": "GEOX",
@@ -2633,7 +2633,7 @@
     "category": 15,
     "title": "Детские сланцы с декоративными фигурками",
     "images": [
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/92.jpg"
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/92.jpg"
     ],
     "sku": "1000072",
     "manufacturer": "TENDANCE",
@@ -2668,8 +2668,8 @@
     "category": 15,
     "title": "Детские кеды NEW JUMP",
     "images": [
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/93.jpg",
-      "https://raw.githubusercontent.com/netology-code/ra16-diploma/master/src/img/products/90_a.jpg"
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/93.jpg",
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/90_a.jpg"
     ],
     "sku": "1000073",
     "manufacturer": "TENDANCE",
