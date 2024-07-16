@@ -51,8 +51,8 @@
     "reason": "Прогулка",
     "season": "Лето",
     "heelSize": "1 см.",
-    "price": 153790,
-    "oldPrice": 140000,
+    "price": 23800,
+    "oldPrice": 25000,
     "sizes": [
       {
         "size": "10 US",
@@ -83,8 +83,8 @@
     "reason": "Прогулка",
     "season": "Лето",
     "heelSize": "1 см.",
-    "price": 153790,
-    "oldPrice": 140000,
+    "price": 7980,
+    "oldPrice": 10300,
     "sizes": [
       {
         "size": "10 US",
@@ -109,8 +109,8 @@
     "category": 13,
     "title": "Туфли летние BELWEST",
     "images": [
-      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/pharrell_williams_sneakers_2.jpg",
-      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/pharrell_williams_sneakers.jpg"
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/23.jpg",
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/23_a.jpg"
     ],
     "sku": "1000003",
     "manufacturer": "BELWEST",
@@ -119,8 +119,8 @@
     "reason": "Высока мода",
     "season": "Лето",
     "heelSize": "8 см.",
-    "price": 153790,
-    "oldPrice": 140000,
+    "price": 21500,
+    "oldPrice": 24000,
     "sizes": [
       {
         "size": "10 US",
@@ -155,8 +155,8 @@
     "reason": "Прогулка",
     "season": "Осень",
     "heelSize": "5 см.",
-    "price": 153790,
-    "oldPrice": 140000,
+    "price": 12900,
+    "oldPrice": 18900,
     "sizes": [
       {
         "size": "10 US",
@@ -191,8 +191,8 @@
     "reason": "Высокая мода",
     "season": "Лето",
     "heelSize": "9 см.",
-    "price": 153790,
-    "oldPrice": 140000,
+    "price": 8790,
+    "oldPrice": 9800,
     "sizes": [
       {
         "size": "10 US",
@@ -255,8 +255,8 @@
     "category": 13,
     "title": "Сложная геометрия",
     "images": [
-      "https://github.com/OlgaIts/React-Diploma/blob/master/src/img/products/27.jpg",
-      "https://github.com/OlgaIts/React-Diploma/blob/master/src/img/products/27_a.jpg"
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/27.jpg",
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/27_a.jpg"
     ],
     "sku": "1000007",
     "manufacturer": "JACQUEMUS",
@@ -964,23 +964,27 @@
     "reason": "Спорт",
     "season": "Лето",
     "heelSize": "1 см.",
-    "price": 153790,
-    "oldPrice": 140000,
+    "price": 9100,
+    "oldPrice": 11900,
     "sizes": [
       {
-        "size": "10 US",
-        "available": true
-      },
-      {
         "size": "12 US",
-        "available": false
+        "available": true
       },
       {
         "size": "14 US",
-        "available": true
+        "available": false
       },
       {
         "size": "16 US",
+        "available": true
+      },
+      {
+        "size": "18 US",
+        "available": false
+      },
+      {
+        "size": "20 US",
         "available": true
       }
     ]
@@ -1000,23 +1004,27 @@
     "reason": "Спорт",
     "season": "Лето",
     "heelSize": "1 см.",
-    "price": 153790,
-    "oldPrice": 140000,
+    "price": 21900,
+    "oldPrice": 22900,
     "sizes": [
-      {
-        "size": "10 US",
-        "available": true
-      },
       {
         "size": "12 US",
         "available": false
       },
       {
         "size": "14 US",
-        "available": true
+        "available": false
       },
       {
         "size": "16 US",
+        "available": true
+      },
+      {
+        "size": "18 US",
+        "available": false
+      },
+      {
+        "size": "20 US",
         "available": true
       }
     ]
@@ -1036,24 +1044,28 @@
     "reason": "Спорт",
     "season": "Лето",
     "heelSize": "1 см.",
-    "price": 153790,
-    "oldPrice": 140000,
+    "price": 15000,
+    "oldPrice": 17000,
     "sizes": [
       {
-        "size": "10 US",
-        "available": true
-      },
-      {
         "size": "12 US",
-        "available": false
+        "available": true
       },
       {
         "size": "14 US",
-        "available": true
+        "available": false
       },
       {
         "size": "16 US",
+        "available": false
+      },
+      {
+        "size": "18 US",
         "available": true
+      },
+      {
+        "size": "20 US",
+        "available": false
       }
     ]
   },
@@ -1063,8 +1075,8 @@
     "category": 12,
     "title": "Ботинки Camelot",
     "images": [
-      "https://github.com/OlgaIts/React-Diploma/blob/master/src/img/products/49.jpg",
-      "htthttps://github.com/OlgaIts/React-Diploma/blob/master/src/img/products/49_a.jpg"
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/49.jpg",
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/49_a.jpg"
     ],
     "sku": "1000029",
     "manufacturer": "Camelot",
@@ -1073,13 +1085,9 @@
     "reason": "Спорт",
     "season": "Демисезон",
     "heelSize": "4 см.",
-    "price": 153790,
-    "oldPrice": 140000,
+    "price": 4920,
+    "oldPrice": 6400,
     "sizes": [
-      {
-        "size": "10 US",
-        "available": true
-      },
       {
         "size": "12 US",
         "available": false
@@ -1090,7 +1098,15 @@
       },
       {
         "size": "16 US",
+        "available": false
+      },
+      {
+        "size": "18 US",
         "available": true
+      },
+      {
+        "size": "20 US",
+        "available": false
       }
     ]
   },
@@ -1110,23 +1126,27 @@
     "reason": "Прогулка",
     "season": "Лето",
     "heelSize": "4 см.",
-    "price": 153790,
-    "oldPrice": 140000,
+    "price": 20700,
+    "oldPrice": 25000,
     "sizes": [
       {
-        "size": "10 US",
-        "available": true
-      },
-      {
         "size": "12 US",
-        "available": false
+        "available": true
       },
       {
         "size": "14 US",
-        "available": true
+        "available": false
       },
       {
         "size": "16 US",
+        "available": true
+      },
+      {
+        "size": "18 US",
+        "available": false
+      },
+      {
+        "size": "20 US",
         "available": true
       }
     ]
@@ -1150,19 +1170,23 @@
     "oldPrice": 160000,
     "sizes": [
       {
-        "size": "10 US",
-        "available": true
-      },
-      {
         "size": "12 US",
         "available": false
       },
       {
         "size": "14 US",
-        "available": true
+        "available": false
       },
       {
         "size": "16 US",
+        "available": false
+      },
+      {
+        "size": "18 US",
+        "available": true
+      },
+      {
+        "size": "20 US",
         "available": true
       }
     ]
@@ -1187,19 +1211,23 @@
     "oldPrice": 140000,
     "sizes": [
       {
-        "size": "10 US",
-        "available": true
-      },
-      {
         "size": "12 US",
-        "available": false
+        "available": true
       },
       {
         "size": "14 US",
-        "available": true
+        "available": false
       },
       {
         "size": "16 US",
+        "available": false
+      },
+      {
+        "size": "18 US",
+        "available": true
+      },
+      {
+        "size": "20 US",
         "available": true
       }
     ]
@@ -1219,13 +1247,9 @@
     "reason": "Прогулка",
     "season": "Лето",
     "heelSize": "2 см.",
-    "price": 153790,
-    "oldPrice": 140000,
+    "price": 12800,
+    "oldPrice": 14000,
     "sizes": [
-      {
-        "size": "10 US",
-        "available": true
-      },
       {
         "size": "12 US",
         "available": false
@@ -1236,6 +1260,14 @@
       },
       {
         "size": "16 US",
+        "available": true
+      },
+      {
+        "size": "18 US",
+        "available": false
+      },
+      {
+        "size": "20 US",
         "available": true
       }
     ]
@@ -1255,16 +1287,12 @@
     "reason": "Casual",
     "season": "Лето",
     "heelSize": "3 см.",
-    "price": 153790,
-    "oldPrice": 140000,
+    "price": 13300,
+    "oldPrice": 18900,
     "sizes": [
       {
-        "size": "10 US",
-        "available": true
-      },
-      {
         "size": "12 US",
-        "available": false
+        "available": true
       },
       {
         "size": "14 US",
@@ -1272,6 +1300,14 @@
       },
       {
         "size": "16 US",
+        "available": false
+      },
+      {
+        "size": "18 US",
+        "available": false
+      },
+      {
+        "size": "20 US",
         "available": true
       }
     ]
@@ -1292,13 +1328,9 @@
     "reason": "Спорт",
     "season": "Весна",
     "heelSize": "4 см.",
-    "price": 153790,
-    "oldPrice": 140000,
+    "price": 10700,
+    "oldPrice": 12700,
     "sizes": [
-      {
-        "size": "10 US",
-        "available": true
-      },
       {
         "size": "12 US",
         "available": false
@@ -1309,7 +1341,15 @@
       },
       {
         "size": "16 US",
+        "available": false
+      },
+      {
+        "size": "18 US",
         "available": true
+      },
+      {
+        "size": "20 US",
+        "available": false
       }
     ]
   },
@@ -1318,8 +1358,8 @@
     "category": 12,
     "title": "Кеды CONVERSE Chuck Taylor All Star Core",
     "images": [
-      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/56.jpg",
-      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/56_a.jpg"
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/56.jpeg",
+      "https://raw.githubusercontent.com/OlgaIts/React-Diploma/master/src/img/products/56_a.jpeg"
     ],
     "sku": "1000036",
     "manufacturer": "CONVERSE",
@@ -1328,23 +1368,27 @@
     "reason": "Casual, Городской рок",
     "season": "Весна",
     "heelSize": "2 см.",
-    "price": 153790,
-    "oldPrice": 140000,
+    "price": 5500,
+    "oldPrice": 6000,
     "sizes": [
       {
-        "size": "10 US",
-        "available": true
-      },
-      {
         "size": "12 US",
-        "available": false
+        "available": true
       },
       {
         "size": "14 US",
-        "available": true
+        "available": false
       },
       {
         "size": "16 US",
+        "available": false
+      },
+      {
+        "size": "18 US",
+        "available": true
+      },
+      {
+        "size": "20 US",
         "available": true
       }
     ]
@@ -1365,24 +1409,28 @@
     "reason": "Casual",
     "season": "Демисезон",
     "heelSize": "2 см.",
-    "price": 153790,
-    "oldPrice": 140000,
+    "price": 7200,
+    "oldPrice": 8500,
     "sizes": [
-      {
-        "size": "10 US",
-        "available": true
-      },
       {
         "size": "12 US",
         "available": false
       },
       {
         "size": "14 US",
-        "available": true
+        "available": false
       },
       {
         "size": "16 US",
         "available": true
+      },
+      {
+        "size": "18 US",
+        "available": true
+      },
+      {
+        "size": "20 US",
+        "available": false
       }
     ]
   },
@@ -1401,23 +1449,27 @@
     "reason": "Casual",
     "season": "Лето",
     "heelSize": "3 см.",
-    "price": 153790,
-    "oldPrice": 140000,
+    "price": 13200,
+    "oldPrice": 16900,
     "sizes": [
       {
-        "size": "10 US",
-        "available": true
-      },
-      {
         "size": "12 US",
-        "available": false
+        "available": true
       },
       {
         "size": "14 US",
-        "available": true
+        "available": false
       },
       {
         "size": "16 US",
+        "available": false
+      },
+      {
+        "size": "18 US",
+        "available": true
+      },
+      {
+        "size": "20 US",
         "available": true
       }
     ]
@@ -1437,16 +1489,12 @@
     "reason": "Уличный спорт",
     "season": "Демисезон",
     "heelSize": "5 см.",
-    "price": 153790,
-    "oldPrice": 140000,
+    "price": 25000,
+    "oldPrice": 27000,
     "sizes": [
       {
-        "size": "10 US",
-        "available": true
-      },
-      {
         "size": "12 US",
-        "available": false
+        "available": true
       },
       {
         "size": "14 US",
@@ -1454,7 +1502,15 @@
       },
       {
         "size": "16 US",
+        "available": false
+      },
+      {
+        "size": "18 US",
         "available": true
+      },
+      {
+        "size": "20 US",
+        "available": false
       }
     ]
   },
@@ -1474,24 +1530,28 @@
     "reason": "Прогулка",
     "season": "Демисезон",
     "heelSize": "5 см.",
-    "price": 153790,
-    "oldPrice": 140000,
+    "price": 5100,
+    "oldPrice": 6400,
     "sizes": [
       {
-        "size": "10 US",
-        "available": true
-      },
-      {
         "size": "12 US",
-        "available": false
+        "available": true
       },
       {
         "size": "14 US",
-        "available": true
+        "available": false
       },
       {
         "size": "16 US",
+        "available": false
+      },
+      {
+        "size": "18 US",
         "available": true
+      },
+      {
+        "size": "20 US",
+        "available": false
       }
     ]
   },
@@ -1510,13 +1570,9 @@
     "reason": "Деловой",
     "season": "Лето",
     "heelSize": "2 см.",
-    "price": 153790,
-    "oldPrice": 140000,
+    "price": 6310,
+    "oldPrice": 7500,
     "sizes": [
-      {
-        "size": "10 US",
-        "available": true
-      },
       {
         "size": "12 US",
         "available": false
@@ -1527,6 +1583,14 @@
       },
       {
         "size": "16 US",
+        "available": true
+      },
+      {
+        "size": "18 US",
+        "available": false
+      },
+      {
+        "size": "20 US",
         "available": true
       }
     ]
@@ -1547,16 +1611,12 @@
     "reason": "Прогулка",
     "season": "Лето",
     "heelSize": "3 см.",
-    "price": 153790,
-    "oldPrice": 140000,
+    "price": 7500,
+    "oldPrice": 8700,
     "sizes": [
       {
-        "size": "10 US",
-        "available": true
-      },
-      {
         "size": "12 US",
-        "available": false
+        "available": true
       },
       {
         "size": "14 US",
@@ -1565,6 +1625,14 @@
       {
         "size": "16 US",
         "available": true
+      },
+      {
+        "size": "18 US",
+        "available": false
+      },
+      {
+        "size": "20 US",
+        "available": false
       }
     ]
   },
@@ -2133,24 +2201,24 @@
     "reason": "Прогулка",
     "season": "Весна, осень",
     "heelSize": "3 см.",
-    "price": 153790,
-    "oldPrice": 140000,
+    "price": 7500,
+    "oldPrice": 10100,
     "sizes": [
       {
-        "size": "10 US",
-        "available": true
-      },
-      {
-        "size": "12 US",
+        "size": "4 US",
         "available": false
       },
       {
-        "size": "14 US",
+        "size": "6 US",
         "available": true
       },
       {
-        "size": "16 US",
+        "size": "8 US",
         "available": true
+      },
+      {
+        "size": "10 US",
+        "available": false
       }
     ]
   },
@@ -2170,23 +2238,23 @@
     "reason": "Прогулка",
     "season": "Весна, осень",
     "heelSize": "3 см.",
-    "price": 153790,
-    "oldPrice": 140000,
+    "price": 10300,
+    "oldPrice": 12900,
     "sizes": [
       {
-        "size": "10 US",
+        "size": "4 US",
         "available": true
       },
       {
-        "size": "12 US",
+        "size": "6 US",
         "available": false
       },
       {
-        "size": "14 US",
+        "size": "8 US",
         "available": true
       },
       {
-        "size": "16 US",
+        "size": "10 US",
         "available": true
       }
     ]
@@ -2206,23 +2274,23 @@
     "reason": "Прогулка",
     "season": "Весна, осень",
     "heelSize": "2 см.",
-    "price": 153790,
-    "oldPrice": 140000,
+    "price": 12800,
+    "oldPrice": 14200,
     "sizes": [
       {
-        "size": "10 US",
+        "size": "4 US",
         "available": true
       },
       {
-        "size": "12 US",
+        "size": "6 US",
+        "available": true
+      },
+      {
+        "size": "8 US",
         "available": false
       },
       {
-        "size": "14 US",
-        "available": true
-      },
-      {
-        "size": "16 US",
+        "size": "10 US",
         "available": true
       }
     ]
@@ -2242,23 +2310,23 @@
     "reason": "Прогулка",
     "season": "Лето",
     "heelSize": "2 см.",
-    "price": 153790,
-    "oldPrice": 140000,
+    "price": 14200,
+    "oldPrice": 17400,
     "sizes": [
       {
-        "size": "10 US",
-        "available": true
-      },
-      {
-        "size": "12 US",
+        "size": "4 US",
         "available": false
       },
       {
-        "size": "14 US",
+        "size": "6 US",
+        "available": false
+      },
+      {
+        "size": "8 US",
         "available": true
       },
       {
-        "size": "16 US",
+        "size": "10 US",
         "available": true
       }
     ]
@@ -2279,23 +2347,23 @@
     "reason": "Прогулка",
     "season": "Демисезон",
     "heelSize": "4 см.",
-    "price": 153790,
-    "oldPrice": 140000,
+    "price": 17100,
+    "oldPrice": 18000,
     "sizes": [
       {
-        "size": "10 US",
+        "size": "4 US",
         "available": true
       },
       {
-        "size": "12 US",
+        "size": "6 US",
+        "available": true
+      },
+      {
+        "size": "8 US",
         "available": false
       },
       {
-        "size": "14 US",
-        "available": true
-      },
-      {
-        "size": "16 US",
+        "size": "10 US",
         "available": true
       }
     ]
@@ -2315,24 +2383,24 @@
     "reason": "Прогулка",
     "season": "Лето",
     "heelSize": "2 см.",
-    "price": 153790,
-    "oldPrice": 140000,
+    "price": 7590,
+    "oldPrice": 8390,
     "sizes": [
       {
-        "size": "10 US",
+        "size": "4 US",
         "available": true
       },
       {
-        "size": "12 US",
+        "size": "6 US",
         "available": false
       },
       {
-        "size": "14 US",
+        "size": "8 US",
         "available": true
       },
       {
-        "size": "16 US",
-        "available": true
+        "size": "10 US",
+        "available": false
       }
     ]
   },
@@ -2351,23 +2419,27 @@
     "reason": "Прогулка",
     "season": "Весна, лето",
     "heelSize": "3 см.",
-    "price": 153790,
-    "oldPrice": 140000,
+    "price": 10400,
+    "oldPrice": 12900,
     "sizes": [
+      {
+        "size": "4 US",
+        "available": false
+      },
+      {
+        "size": "6 US",
+        "available": false
+      },
+      {
+        "size": "8 US",
+        "available": false
+      },
       {
         "size": "10 US",
         "available": true
       },
       {
         "size": "12 US",
-        "available": false
-      },
-      {
-        "size": "14 US",
-        "available": true
-      },
-      {
-        "size": "16 US",
         "available": true
       }
     ]
@@ -2391,19 +2463,23 @@
     "oldPrice": 1500,
     "sizes": [
       {
+        "size": "4 US",
+        "available": true
+      },
+      {
+        "size": "6 US",
+        "available": false
+      },
+      {
+        "size": "8 US",
+        "available": false
+      },
+      {
         "size": "10 US",
         "available": true
       },
       {
         "size": "12 US",
-        "available": false
-      },
-      {
-        "size": "14 US",
-        "available": true
-      },
-      {
-        "size": "16 US",
         "available": true
       }
     ]
@@ -2424,23 +2500,27 @@
     "reason": "Прогулка",
     "season": "весна, Лето",
     "heelSize": "2 см.",
-    "price": 153790,
-    "oldPrice": 140000,
+    "price": 12200,
+    "oldPrice": 13500,
     "sizes": [
       {
-        "size": "10 US",
+        "size": "4 US",
         "available": true
       },
       {
-        "size": "12 US",
+        "size": "6 US",
         "available": false
       },
       {
-        "size": "14 US",
+        "size": "8 US",
         "available": true
       },
       {
-        "size": "16 US",
+        "size": "10 US",
+        "available": false
+      },
+      {
+        "size": "12 US",
         "available": true
       }
     ]
@@ -2461,9 +2541,21 @@
     "reason": "Праздник",
     "season": "Всесезонная",
     "heelSize": "1 см.",
-    "price": 153790,
-    "oldPrice": 140000,
+    "price": 13500,
+    "oldPrice": 15500,
     "sizes": [
+      {
+        "size": "4 US",
+        "available": true
+      },
+      {
+        "size": "6 US",
+        "available": false
+      },
+      {
+        "size": "8 US",
+        "available": true
+      },
       {
         "size": "10 US",
         "available": true
@@ -2471,14 +2563,6 @@
       {
         "size": "12 US",
         "available": false
-      },
-      {
-        "size": "14 US",
-        "available": true
-      },
-      {
-        "size": "16 US",
-        "available": true
       }
     ]
   },
@@ -2497,23 +2581,27 @@
     "reason": "Прогулка",
     "season": "Лето",
     "heelSize": "3 см.",
-    "price": 153790,
-    "oldPrice": 140000,
+    "price": 2500,
+    "oldPrice": 3000,
     "sizes": [
+      {
+        "size": "4 US",
+        "available": false
+      },
+      {
+        "size": "6 US",
+        "available": true
+      },
+      {
+        "size": "8 US",
+        "available": false
+      },
       {
         "size": "10 US",
         "available": true
       },
       {
         "size": "12 US",
-        "available": false
-      },
-      {
-        "size": "14 US",
-        "available": true
-      },
-      {
-        "size": "16 US",
         "available": true
       }
     ]
@@ -2533,23 +2621,27 @@
     "reason": "Прогулка",
     "season": "Лето",
     "heelSize": "4 см.",
-    "price": 153790,
-    "oldPrice": 140000,
+    "price": 3300,
+    "oldPrice": 4500,
     "sizes": [
       {
-        "size": "10 US",
+        "size": "4 US",
         "available": true
       },
       {
-        "size": "12 US",
+        "size": "6 US",
         "available": false
       },
       {
-        "size": "14 US",
+        "size": "8 US",
         "available": true
       },
       {
-        "size": "16 US",
+        "size": "10 US",
+        "available": false
+      },
+      {
+        "size": "12 US",
         "available": true
       }
     ]
@@ -2570,24 +2662,28 @@
     "reason": "Прогулка",
     "season": "Лето",
     "heelSize": "3 см.",
-    "price": 153790,
-    "oldPrice": 140000,
+    "price": 4500,
+    "oldPrice": 6200,
     "sizes": [
       {
         "size": "4 US",
-        "available": true
-      },
-      {
-        "size": "6 US",
         "available": false
       },
       {
-        "size": "8 US",
+        "size": "6 US",
         "available": true
+      },
+      {
+        "size": "8 US",
+        "available": false
       },
       {
         "size": "10 US",
         "available": true
+      },
+      {
+        "size": "12 US",
+        "available": false
       }
     ]
   },
@@ -2606,23 +2702,27 @@
     "reason": "Прогулка",
     "season": "Лето",
     "heelSize": "2 см.",
-    "price": 153790,
-    "oldPrice": 140000,
+    "price": 6100,
+    "oldPrice": 7500,
     "sizes": [
       {
-        "size": "10 US",
+        "size": "4 US",
         "available": true
       },
       {
-        "size": "12 US",
+        "size": "6 US",
+        "available": true
+      },
+      {
+        "size": "8 US",
+        "available": true
+      },
+      {
+        "size": "10 US",
         "available": false
       },
       {
-        "size": "14 US",
-        "available": true
-      },
-      {
-        "size": "16 US",
+        "size": "12 US",
         "available": true
       }
     ]
@@ -2642,23 +2742,27 @@
     "reason": "Прогулка",
     "season": "Лето",
     "heelSize": "3 см.",
-    "price": 153790,
-    "oldPrice": 140000,
+    "price": 3100,
+    "oldPrice": 4100,
     "sizes": [
+      {
+        "size": "4 US",
+        "available": false
+      },
+      {
+        "size": "6 US",
+        "available": true
+      },
+      {
+        "size": "8 US",
+        "available": false
+      },
       {
         "size": "10 US",
         "available": true
       },
       {
         "size": "12 US",
-        "available": false
-      },
-      {
-        "size": "14 US",
-        "available": true
-      },
-      {
-        "size": "16 US",
         "available": true
       }
     ]
@@ -2678,9 +2782,21 @@
     "reason": "Прогулка",
     "season": "Демисезон",
     "heelSize": "2 см.",
-    "price": 153790,
-    "oldPrice": 140000,
+    "price": 3490,
+    "oldPrice": 5400,
     "sizes": [
+      {
+        "size": "4 US",
+        "available": true
+      },
+      {
+        "size": "6 US",
+        "available": false
+      },
+      {
+        "size": "8 US",
+        "available": true
+      },
       {
         "size": "10 US",
         "available": true
@@ -2688,14 +2804,6 @@
       {
         "size": "12 US",
         "available": false
-      },
-      {
-        "size": "14 US",
-        "available": true
-      },
-      {
-        "size": "16 US",
-        "available": true
       }
     ]
   }
