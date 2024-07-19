@@ -3,7 +3,6 @@ import {Title} from "../../../../components/Title";
 import {ItemsList} from "../../../../components/ItemsList/ItemsList";
 import {Preloader} from "../../../../components/Preloader";
 
-// const url = "http://localhost:7070/api/top-sales";
 const url = import.meta.env.VITE_BASE_API_URL;
 
 export const TopSales = memo(() => {
@@ -12,7 +11,6 @@ export const TopSales = memo(() => {
 
   const getItems = async () => {
     const response = await fetch(`${url}/api/top-sales`);
-    // const response = await fetch(url);
     const result = await response.json();
     setList(result);
     setIsLoading(false);

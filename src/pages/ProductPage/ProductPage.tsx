@@ -56,7 +56,7 @@ export const ProductPage = memo(({className}: Props) => {
           </div>
           <div className={styles.sizes}>
             <p>
-              Размеры в наличии:{" "}
+              Размеры в наличии:{"  "}
               {product.sizes
                 .filter(({available}) => {
                   return available;

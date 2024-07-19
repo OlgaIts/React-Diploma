@@ -2,7 +2,7 @@ import {useState} from "react";
 import styles from "./QuantityCounter.module.scss";
 
 export const QuantityCounter = () => {
-  const [count, setCount] = useState(0);
+  const [count, setCount] = useState(1);
 
   const dec = () => {
     if (count > 0) {
