@@ -1,12 +1,12 @@
-import {ReactNode, memo} from "react";
+import {memo} from "react";
 import {Title} from "../../components/Title";
-import styles from "./CartPage.module.scss";
 import {Button} from "../../components/Button";
 import {Table} from "../../components/Table/Table";
 import {COLUMNS as columns} from "./consts";
-import {CartItem} from "./types";
+import {TableCartItem} from "./types";
+import styles from "./CartPage.module.scss";
 
-const data: CartItem[] = [
+const data: TableCartItem[] = [
   {
     number: "1",
     title: "Босоножки",
@@ -18,20 +18,24 @@ const data: CartItem[] = [
 ];
 
 export const CartPage = memo(() => {
-  const onClick = (item: CartItem) => {
+  const onClick = (item: TableCartItem) => {
     // delete item
     console.log(item);
   };
-  
-  const tableData = data.map((item) => ({ 
+
+  const tableData = data.map((item) => ({
     ...item,
     actions: () => (
-      <Button className={styles.btn_delete} onClick={() => onClick(item)}>
+      <Button
+        tag='button'
+        className={styles.btn_delete}
+        onClick={() => onClick(item)}
+      >
         Удалить
       </Button>
     ),
   }));
-  
+
   return (
     <main>
       <Title tag='h2' isCentered>
@@ -44,24 +48,6 @@ export const CartPage = memo(() => {
           data={tableData}
           footer={{title: "Игого", titleSpan: 5, value: "34 руб"}} // дописать вынести футер в переменную
         />
-        {/* <div className={styles.row}>#</div>
-        <div className={styles.row}>Название</div>
-        <div className={styles.row}>Размер</div>
-        <div className={styles.row}>Кол-во</div>
-        <div className={styles.row}>Стоимость</div>
-        <div className={styles.row}>Итого</div>
-        <div className={styles.row}>Действия</div>
-        <div className={styles.item}>1</div>
-        <div className={styles.item}>Босоножки какие-то там</div>
-        <div className={styles.item}>18 US</div>
-        <div className={styles.item}>1</div>
-        <div className={styles.item}>34 000 руб.</div>
-        <div className={styles.item}>34 000 руб.</div>
-        <div className={styles.item}>
-          <button className={` ${styles.btn_delete}`}>Удалить</button>
-        </div>
-        <div className={`${styles.item} ${styles.item_2}`}>Общая стоимость</div>
-        <div className={styles.item}>34 000 руб.</div> */}
       </section>
 
       <Title tag='h2' isCentered>
@@ -95,7 +81,13 @@ export const CartPage = memo(() => {
               Согласен с правилами доставки
             </label>
           </div>
-          <Button className={styles.btn}>Оформить</Button>
+          <Button
+            tag='button'
+            onClick={() => console.log("Оформить")}
+            className={styles.btn}
+          >
+            Оформить
+          </Button>
         </form>
       </section>
     </main>

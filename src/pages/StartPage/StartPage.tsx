@@ -1,20 +1,21 @@
 import {memo} from "react";
+import {useGetCategories} from "../../hooks/useGetCategories";
 import {TopSales} from "./components";
 import {Title} from "../../components/Title";
-import {Button} from "../../components/Button";
-import styles from "./StartPage.module.scss";
+import {Catalog} from "../CatalogPage/components";
 
 export const StartPage = memo(() => {
+  const {categoriesList} = useGetCategories();
+
   return (
     <>
-      <main className='container'>
+      <main>
         <TopSales />
-        <section className='catalog'>
+        <section>
           <Title tag='h2' isCentered>
             Каталог
           </Title>
-          
-          <Button className={styles.btn}>Загрузить ещё</Button>
+          {/* <Catalog categoriesList={categoriesList} handleLoadMore={} list={} showMoreButton={}/>   ДОПИСАТЬ */}
         </section>
       </main>
     </>

@@ -1,10 +1,11 @@
-.btn {
+.component {
   padding: var(--padding);
   display: grid;
   place-content: center;
-  border: var(--border);
   background-color: var(--color-white);
+  color: var(--color);
   border-radius: var(--radius);
+  border: none;
   outline: none;
   transition: all 0.3s ease-in-out;
   cursor: pointer;
@@ -13,4 +14,27 @@
     background-color: var(--color);
     color: var(--color-white);
   }
+}
+
+.with_border {
+  border: var(--btn-border);
+}
+
+.cart {
+  background-color: var(--active-color);
+  border: 1px solid var(--active-color);
+  color: #fff;
+
+  &:hover {
+    background-color: var(--color-white);
+    border: 1px solid var(--active-color);
+    color: var(--active-color);
+  }
+}
+
+.disabled {
+  cursor: not-allowed;
+  pointer-events: none;
+  background-color: var(--accent-color);
+  border: 1px solid var(--accent-color);
 }

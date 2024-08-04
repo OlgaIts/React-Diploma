@@ -1,24 +1,11 @@
-import {memo, useEffect, useState} from "react";
+import {memo} from "react";
+import {useGetTopSales} from "../../../../hooks/useGetTopSales";
 import {Title} from "../../../../components/Title";
 import {ItemsList} from "../../../../components/ItemsList/ItemsList";
 import {Preloader} from "../../../../components/Preloader";
 
-const url = import.meta.env.VITE_BASE_API_URL;
-
 export const TopSales = memo(() => {
-  const [list, setList] = useState([]);
-  const [isLoading, setIsLoading] = useState(true);
-
-  const getItems = async () => {
-    const response = await fetch(`${url}/api/top-sales`);
-    const result = await response.json();
-    setList(result);
-    setIsLoading(false);
-  };
-
-  useEffect(() => {
-    getItems();
-  }, []);
+  const {list, isLoading} = useGetTopSales();
 
   if (!list) {
     return [];

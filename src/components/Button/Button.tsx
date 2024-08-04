@@ -1,16 +1,47 @@
 import {ReactNode} from "react";
+import {Link} from "react-router-dom";
+import classNames from "classnames";
 import styles from "./Button.module.scss";
 
 interface ButtonProps {
-  children: ReactNode;
+  children: string | ReactNode;
   className?: string;
-  href?: string;
   onClick?: () => void;
+  tag: "button" | "Link";
+  to?: string;
+  toCart?: boolean;
+  withBorder?: boolean;
+  disabled?: boolean;
 }
-export const Button = ({children, className, href, onClick}: ButtonProps) => {
+export const Button = ({
+  children,
+  className,
+  to,
+  onClick,
+  tag = "button",
+  toCart,
+  withBorder,
+  disabled,
+}: ButtonProps) => {
+  const allStyles = classNames(
+    styles.component,
+    {[styles.disabled]: disabled},
+    {[styles.cart]: toCart},
+    {[styles.with_border]: withBorder},
+    className,
+  );
+
   return (
-    <a href={href} className={`${styles.btn} ${className}`} onClick={onClick}>
-      {children}
-    </a>
+    <>
+      {tag === "Link" ? (
+        <Link className={allStyles} to={to as string} >
+          {children}
+        </Link>
+      ) : (
+        <button className={allStyles} onClick={onClick}>
+          {children}
+        </button>
+      )}
+    </>
   );
 };

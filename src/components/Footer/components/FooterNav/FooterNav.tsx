@@ -1,10 +1,6 @@
 import { NavLink } from "react-router-dom";
 import styles from "./FooterNav.module.scss";
 
-interface Props {
-  className?: string;
-}
-
 export const FooterNav = () => {
   const navItems = [
     {label: "Каталог", link: "/catalog"},

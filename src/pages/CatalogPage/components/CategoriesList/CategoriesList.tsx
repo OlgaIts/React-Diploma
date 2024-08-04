@@ -1,29 +1,42 @@
-import {NavLink, useSearchParams} from "react-router-dom";
+import {useSearchParams} from "react-router-dom";
 import styles from "./CategoriesList.module.scss";
+import {useAppSelector} from "../../../../hooks/reduxHooks";
+import classNames from "classnames";
+import {useGetCategories} from "../../../../hooks/useGetCategories";
 
 type Item = {
   id: number;
   title: string;
 };
 
-interface CategoriesListProps {
-  list: Item[];
-}
-export const CategoriesList = ({list}: CategoriesListProps) => {
+export const CategoriesList = () => {
+  const {categoriesList: list} = useGetCategories();
   const categoryList = [{id: 11, title: "Все"}, ...list];
-  const [searchParams] = useSearchParams(); // quary параметры, которые идут после вопросительного знака
-  const currentCategory = searchParams.get("categoryId"); // Map {categoryId: 13, offset: 60} currentCategory.categoryId // currentCategory.get('categoryId')
+  const currentCategory = useAppSelector(({products}) => products.categoryId);
+  const [searchParams, setSearchParams] = useSearchParams();
+
+  const onCategoryClick = (item: Item) => {
+    item.id === 11
+      ? searchParams.delete("categoryId")
+      : searchParams.set("categoryId", item.id.toString());
+    searchParams.delete("offset");
+    setSearchParams(searchParams);
+  };
 
   return (
     <ul className={styles.list}>
       {categoryList.map((item) => (
         <li className={styles.item} key={item.id}>
-          <NavLink
-            to={`/catalog/?categoryId=${item.id}`}
-            className={item.id === Number(currentCategory) ? styles.active : ""}
+          <div
+            onClick={() => onCategoryClick(item)}
+            className={classNames({
+              [styles.active]:
+                (item.id === 11 && !currentCategory) ||
+                item.id === Number(currentCategory),
+            })}
           >
             {item.title}
-          </NavLink>
+          </div>
         </li>
       ))}
     </ul>

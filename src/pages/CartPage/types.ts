@@ -1,6 +1,6 @@
 import {ReactNode} from "react";
 
-export interface CartItem {
+export interface TableCartItem {
   number: string;
   title: string;
   size: string;
