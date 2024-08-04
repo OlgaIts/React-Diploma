@@ -1,6 +1,10 @@
 .btn_wrap {
-    display: grid;
-    place-content: center;
-    cursor: pointer;
-  }
-  
+  display: grid;
+  place-content: center;
+  cursor: pointer;
+}
+
+.search_input {
+  display: block;
+  margin-bottom: calc(var(--gap) * 3);
+}

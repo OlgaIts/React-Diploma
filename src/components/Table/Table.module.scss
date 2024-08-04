@@ -8,12 +8,12 @@
   text-align: left;
 }
 .col {
-  padding: 10px;
+  padding: var(--gap);
   border: var(--border);
 }
 
 .footer {
   border: var(--border);
   text-align: end;
-  padding: 10px;
+  padding: var(--gap);
 }

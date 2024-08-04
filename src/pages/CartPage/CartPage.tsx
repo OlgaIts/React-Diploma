@@ -1,19 +1,19 @@
-import {memo} from "react";
-import {Title} from "../../components/Title";
-import {Button} from "../../components/Button";
-import {Table} from "../../components/Table/Table";
-import {COLUMNS as columns} from "./consts";
-import {TableCartItem} from "./types";
-import styles from "./CartPage.module.scss";
+import { memo } from 'react';
+import { Title } from '../../components/Title';
+import { Button } from '../../components/Button';
+import { Table } from '../../components/Table';
+import { COLUMNS as columns } from './consts';
+import { TableCartItem } from './types';
+import styles from './CartPage.module.scss';
 
 const data: TableCartItem[] = [
   {
-    number: "1",
-    title: "Босоножки",
-    size: "18 US",
+    number: '1',
+    title: 'Босоножки',
+    size: '18 US',
     quantity: 1,
-    price: "34 000 руб.",
-    total: "34 000 руб",
+    price: '34 000 руб.',
+    total: '34 000 руб',
   },
 ];
 
@@ -46,7 +46,7 @@ export const CartPage = memo(() => {
         <Table
           columns={columns}
           data={tableData}
-          footer={{title: "Игого", titleSpan: 5, value: "34 руб"}} // дописать вынести футер в переменную
+          footer={{ title: 'Игого', titleSpan: 5, value: '34 руб' }} // дописать вынести футер в переменную
         />
       </section>
 
@@ -83,7 +83,8 @@ export const CartPage = memo(() => {
           </div>
           <Button
             tag='button'
-            onClick={() => console.log("Оформить")}
+            withBorder
+            onClick={() => console.log('Оформить')}
             className={styles.btn}
           >
             Оформить
@@ -93,4 +94,4 @@ export const CartPage = memo(() => {
     </main>
   );
 });
-CartPage.displayName = "CartPage";
+CartPage.displayName = 'CartPage';

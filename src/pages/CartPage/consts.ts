@@ -1,12 +1,12 @@
-import {TableColumns} from "../../components/Table/Table";
-import {CartItem} from "./types";
+import { TableColumns } from '../../components/Table/Table';
+import { TableCartItem } from './types';
 
-export const COLUMNS: TableColumns<CartItem> = {
-  number: {header: "#"},
-  title: {header: "Название"},
-  size: {header: "Размер"},
-  quantity: {header: "Кол-во"},
-  price: {header: "Стоимость"},
-  total: {header: "Итого"},
-  actions: {header: "Действия"},
+export const COLUMNS: TableColumns<TableCartItem> = {
+  number: { header: '#' },
+  title: { header: 'Название' },
+  size: { header: 'Размер' },
+  quantity: { header: 'Кол-во' },
+  price: { header: 'Стоимость' },
+  total: { header: 'Итого' },
+  actions: { header: 'Действия' },
 };

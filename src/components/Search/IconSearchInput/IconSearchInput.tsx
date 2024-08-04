@@ -1,7 +1,7 @@
-import {FocusEvent, memo, useState} from "react";
-import classNames from "classnames";
-import {InputSearchProps, SearchInput} from "../SearchInput/SearchInput";
-import styles from "./IconSearchInput.module.scss";
+import { FocusEvent, memo, useState } from 'react';
+import classNames from 'classnames';
+import { InputSearchProps, SearchInput } from '../SearchInput/SearchInput';
+import styles from './IconSearchInput.module.scss';
 
 interface IconSearchInputProps extends InputSearchProps {
   iconSearchClassName?: string;
@@ -17,10 +17,10 @@ export const IconSearchInput = memo(
     const [open, setOpen] = useState(false);
 
     const onBlur = (e: FocusEvent<HTMLInputElement>) => {
-      const {value} = e.target;
+      const { value } = e.target;
       console.log(e.target.value);
       // TODO: сделать хук useClickOutside
-      if (value === "") {
+      if (value === '') {
         setOpen(false);
       }
     };
@@ -41,4 +41,4 @@ export const IconSearchInput = memo(
     );
   },
 );
-IconSearchInput.displayName = "IconSearchInput";
+IconSearchInput.displayName = 'IconSearchInput';

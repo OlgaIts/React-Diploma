@@ -1,5 +1,5 @@
-import {memo} from "react";
-import styles from "./Preloader.module.scss";
+import { memo } from 'react';
+import styles from './Preloader.module.scss';
 
 export const Preloader = memo(() => {
   return (
@@ -10,4 +10,4 @@ export const Preloader = memo(() => {
     </div>
   );
 });
-Preloader.displayName = "Preloader";
+Preloader.displayName = 'Preloader';

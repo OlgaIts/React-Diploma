@@ -4,10 +4,10 @@
 
 .icon {
   position: relative;
-  margin: 0 10px;
+  margin: 0 var(--gap);
   height: 32px;
   width: 32px;
-  background-image: url("../../../img/header-controls-sprite.png");
+  background-image: url('../../../img/header-controls-sprite.png');
   background-repeat: no-repeat;
   background-position: -64px 0;
   cursor: pointer;

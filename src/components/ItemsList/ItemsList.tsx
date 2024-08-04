@@ -1,17 +1,16 @@
-import {Product} from "../../types/product";
-import {Button} from "../Button";
-import styles from "./ItemsList.module.scss";
+import { Product } from '../../types/product';
+import { Button } from '../Button';
+import styles from './ItemsList.module.scss';
 
 interface ItemsListProps {
   list: Product[];
 }
 
-export const ItemsList = ({list}: ItemsListProps) => {
-  // стилизовать
+export const ItemsList = ({ list }: ItemsListProps) => {
   return (
     <>
       {!list.length ? (
-        <div>ничего не найдено</div>
+        <div className={styles.not_found}>Ничего не найдено</div>
       ) : (
         <ul className={styles.list}>
           {list.map((item) => (

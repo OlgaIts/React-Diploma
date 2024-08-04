@@ -1,5 +1,5 @@
-import {Title} from "../../components/Title";
-import styles from "./AboutPage.module.scss";
+import { Title } from '../../components/Title';
+import styles from './AboutPage.module.scss';
 
 export const AboutPage = () => {
   return (
@@ -51,4 +51,4 @@ export const AboutPage = () => {
     </main>
   );
 };
-AboutPage.displayName = "AboutPage";
+AboutPage.displayName = 'AboutPage';

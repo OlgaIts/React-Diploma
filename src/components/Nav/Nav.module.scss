@@ -1,8 +1,8 @@
 .nav {
   display: flex;
-  gap: 16px;
+  gap: calc(var(--padding) * 2);
 }
 .active {
-  color: #000;
-  font-weight: 500;
+  color: var(--color-black);
+  font-weight: var(--fw-medium);
 }

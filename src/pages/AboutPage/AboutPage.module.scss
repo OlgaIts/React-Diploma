@@ -1,7 +1,7 @@
 .sub_title {
   margin-top: calc(var(--gap) * 2);
   margin-bottom: var(--gap);
-  font: 500 24px "Roboto", sans-serif;
+  font: var(--fw-medium) 24px var(--ff);
 }
 
 .item {

@@ -1,6 +1,6 @@
-import {memo} from "react";
-import {Title} from "../../components/Title";
-import styles from "./ContactsPage.module.scss";
+import { memo } from 'react';
+import { Title } from '../../components/Title';
+import styles from './ContactsPage.module.scss';
 
 export const ContactsPage = memo(() => {
   return (
@@ -26,4 +26,4 @@ export const ContactsPage = memo(() => {
   );
 });
 
-ContactsPage.displayName = "ContactsPage";
+ContactsPage.displayName = 'ContactsPage';

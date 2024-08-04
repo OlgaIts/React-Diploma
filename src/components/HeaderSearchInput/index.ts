@@ -1,1 +1,1 @@
-export {HeaderSearchInput} from "./HeaderSearchInput";
+export { HeaderSearchInput } from './HeaderSearchInput';

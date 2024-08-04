@@ -1,11 +1,11 @@
-import {useEffect, useState} from "react";
-import styles from "./QuantityCounter.module.scss";
+import { useEffect, useState } from 'react';
+import styles from './QuantityCounter.module.scss';
 
 interface QuantityCounterProps {
   onChange: (count: number) => void;
 }
 
-export const QuantityCounter = ({onChange}: QuantityCounterProps) => {
+export const QuantityCounter = ({ onChange }: QuantityCounterProps) => {
   const [count, setCount] = useState(1);
 
   const dec = () => {
@@ -29,11 +29,7 @@ export const QuantityCounter = ({onChange}: QuantityCounterProps) => {
       <button className={styles.btn} onClick={dec}>
         -
       </button>
-      <input
-        className={styles.input}
-        type='number'
-        value={count}
-      />
+      <input className={styles.input} type='number' value={count} />
       <button className={styles.btn} onClick={inc}>
         +
       </button>

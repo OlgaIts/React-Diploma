@@ -1,9 +1,9 @@
 .footer {
   display: flex;
   justify-content: space-between;
-  gap: 30px;
-  padding: 0 25px;
-  background-color: #f8f9fa;
+  gap: calc(var(--gap) * 3);
+  padding: 0 calc(var(--padding) * 3);
+  background-color: var(--bg-light);
 }
 
 .col {
@@ -11,7 +11,7 @@
 }
 
 .title {
-  margin-bottom: 16px;
+  margin-bottom: calc(var(--padding) * 2);
 }
 
 .pay_sistems {
@@ -21,10 +21,10 @@
 .pay {
   width: 46px;
   height: 28px;
-  background-color: #ffffff;
+  background-color: var(--color-white);
   background-repeat: no-repeat;
-  background-image: url("../../img/footer-sprite.png");
-  border: 2px solid #ffffff;
+  background-image: url('../../img/footer-sprite.png');
+  border: 2px solid var(--color-white);
   border-radius: 8px;
 
   &:not(:first-child) {
@@ -52,16 +52,16 @@
 }
 
 .social {
-  margin-top: 10px;
+  margin-top: var(--gap);
 }
 .social_link {
   display: inline-block;
   width: 36px;
   height: 36px;
   margin: 0 5px;
-  border-radius: 50%;
+  border-radius: var(--radius-round);
   background-repeat: no-repeat;
-  background-image: url("../../img/footer-sprite.png");
+  background-image: url('../../img/footer-sprite.png');
 
   &:hover {
     cursor: pointer;
@@ -78,10 +78,7 @@
   font-size: 0.8em;
 }
 
-.phone {
-  display: block;
-}
-
+.phone,
 .email {
   display: block;
 }

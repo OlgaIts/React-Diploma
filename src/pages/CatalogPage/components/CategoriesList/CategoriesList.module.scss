@@ -3,10 +3,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 30px;
-  font-size: 1.3rem;
+  gap: calc(var(--gap) * 3);
 }
 
 .active {
   color: var(--active-color);
+}
+
+.item {
+  font-size: 1.3rem;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: transparent;
 }

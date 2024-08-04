@@ -1,9 +1,9 @@
-import {useNavigate} from "react-router-dom";
-import {memo, useState} from "react";
-import {IconSearchInput} from "../Search";
+import { memo, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+import { IconSearchInput } from '../Search';
 
 export const HeaderSearchInput = memo(() => {
-  const [value, setValue] = useState("");
+  const [value, setValue] = useState('');
   const navigate = useNavigate();
 
   const handleValueChange = (inputValue: string) => {
@@ -18,4 +18,4 @@ export const HeaderSearchInput = memo(() => {
     <IconSearchInput callback={handleValueChange} onIconClick={onIconClick} />
   );
 });
-HeaderSearchInput.displayName = "HeaderSearchInput";
+HeaderSearchInput.displayName = 'HeaderSearchInput';

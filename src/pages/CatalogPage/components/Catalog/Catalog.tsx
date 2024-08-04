@@ -1,25 +1,24 @@
-import {memo, useEffect} from "react";
-import {Product} from "../../../../types/product";
-import {CategoriesList} from "../CategoriesList/CategoriesList";
-import {ItemsList} from "../../../../components/ItemsList/ItemsList";
-import {Button} from "../../../../components/Button";
-import styles from "./Catalog.module.scss";
-import {useProducts} from "../../../../hooks/useProducts";
-import {useAppSelector} from "../../../../hooks/reduxHooks";
-import {SearchInput} from "../../../../components/Search";
-import {Preloader} from "../../../../components/Preloader";
+import { memo } from 'react';
+import { useProducts } from '../../../../hooks/useProducts';
+import { useAppSelector } from '../../../../hooks/reduxHooks';
+import { CategoriesList } from '../CategoriesList/CategoriesList';
+import { ItemsList } from '../../../../components/ItemsList';
+import { Button } from '../../../../components/Button';
+import { SearchInput } from '../../../../components/Search';
+import { Preloader } from '../../../../components/Preloader';
+import styles from './Catalog.module.scss';
 
 interface CatalogProps {
   showSearch?: boolean;
 }
 
-export const Catalog = memo(({showSearch}: CatalogProps) => {
-  const {loadMoreProducts, searchProducts} = useProducts();
-  const list = useAppSelector(({products}) => products.products);
+export const Catalog = memo(({ showSearch }: CatalogProps) => {
+  const { loadMoreProducts, searchProducts } = useProducts();
+  const list = useAppSelector(({ products }) => products.products);
   const showMoreButton = useAppSelector(
-    ({products}) => products.showMoreButton,
+    ({ products }) => products.showMoreButton,
   );
-  const isLoading = useAppSelector(({products}) => products.isLoading);
+  const isLoading = useAppSelector(({ products }) => products.isLoading);
 
   return (
     <>
@@ -31,10 +30,7 @@ export const Catalog = memo(({showSearch}: CatalogProps) => {
         />
       )}
       <CategoriesList />
-      
       <ItemsList list={list} />
-
-
       {isLoading && <Preloader />}
       {showMoreButton && (
         <div className={styles.btn_wrap}>
@@ -46,4 +42,4 @@ export const Catalog = memo(({showSearch}: CatalogProps) => {
     </>
   );
 });
-Catalog.displayName = "Catalog";
+Catalog.displayName = 'Catalog';

@@ -2,7 +2,7 @@
   position: relative;
 }
 
-.banner-header {
+.title {
   position: absolute;
   top: 42px;
   right: 0;
@@ -13,10 +13,8 @@
     rgba(161, 179, 191, 0.8) 72.59%,
     rgba(161, 179, 191, 0) 98.05%
   );
-  font:
-    600 48px/98px 'Roboto',
-    sans-serif;
+  font: var(--fw-bold) 48px/98px var(--ff);
   text-align: center;
-  color: #ffffff;
+  color: var(--color-white);
   z-index: 5;
 }

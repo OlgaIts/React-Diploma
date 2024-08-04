@@ -1,12 +1,9 @@
-import {memo} from "react";
-import {useGetCategories} from "../../hooks/useGetCategories";
-import {TopSales} from "./components";
-import {Title} from "../../components/Title";
-import {Catalog} from "../CatalogPage/components";
+import { memo } from 'react';
+import { TopSales } from './components';
+import { Title } from '../../components/Title';
+import { Catalog } from '../CatalogPage/components';
 
 export const StartPage = memo(() => {
-  const {categoriesList} = useGetCategories();
-
   return (
     <>
       <main>
@@ -15,11 +12,11 @@ export const StartPage = memo(() => {
           <Title tag='h2' isCentered>
             Каталог
           </Title>
-          {/* <Catalog categoriesList={categoriesList} handleLoadMore={} list={} showMoreButton={}/>   ДОПИСАТЬ */}
+          <Catalog />
         </section>
       </main>
     </>
   );
 });
 
-StartPage.displayName = "StartPage";
+StartPage.displayName = 'StartPage';

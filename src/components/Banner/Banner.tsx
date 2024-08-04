@@ -6,8 +6,8 @@ import styles from './Banner.module.scss';
 export const Banner = memo(() => {
   return (
     <div className={styles.banner}>
-      <img src={img} className={styles['img-fluid']} alt='К весне готовы!' />
-      <Title tag='h2' className={styles['banner-header']}>
+      <img src={img} alt='К весне готовы!' />
+      <Title tag='h2' className={styles.title}>
         К весне готовы!
       </Title>
     </div>

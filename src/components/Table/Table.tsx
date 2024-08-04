@@ -1,6 +1,6 @@
-import {ReactNode, memo} from "react";
-import classNames from "classnames";
-import styles from "./Table.module.scss";
+import { ReactNode, memo } from 'react';
+import classNames from 'classnames';
+import styles from './Table.module.scss';
 
 export type TableColumns<T> = {
   [K in keyof T]: {
@@ -52,10 +52,10 @@ export const Table = memo(
               {Object.keys(columns).map((header) => (
                 <td className={styles.col} key={header}>
                   {item?.[header]
-                    ? typeof item[header] === "function"
+                    ? typeof item[header] === 'function'
                       ? item[header]()
                       : item[header]
-                    : ""}
+                    : ''}
                 </td>
               ))}
             </tr>
@@ -66,7 +66,7 @@ export const Table = memo(
             <tr className={styles.row}>
               <th
                 className={styles.footer}
-                style={{gridColumn: `span ${footer?.titleSpan}`}}
+                style={{ gridColumn: `span ${footer?.titleSpan}` }}
               >
                 {footer?.title}
               </th>
@@ -79,4 +79,4 @@ export const Table = memo(
   },
 );
 
-Table.displayName = "Table";
+Table.displayName = 'Table';

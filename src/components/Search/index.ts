@@ -1,2 +1,2 @@
-export {IconSearchInput} from "./IconSearchInput/IconSearchInput";
-export {SearchInput} from "./SearchInput/SearchInput";
+export { IconSearchInput } from './IconSearchInput/IconSearchInput';
+export { SearchInput } from './SearchInput/SearchInput';

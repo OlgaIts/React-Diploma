@@ -1,7 +1,7 @@
-import {memo} from "react";
-import {Title} from "../../components/Title";
-import {Catalog} from "./components/";
-import styles from "./CatalogPage.module.scss";
+import { memo } from 'react';
+import { Title } from '../../components/Title';
+import { Catalog } from './components/';
+import styles from './CatalogPage.module.scss';
 
 export const CatalogPage = memo(() => {
   return (
@@ -14,4 +14,4 @@ export const CatalogPage = memo(() => {
   );
 });
 
-CatalogPage.displayName = "CatalogPage";
+CatalogPage.displayName = 'CatalogPage';

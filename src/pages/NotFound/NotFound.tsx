@@ -1,5 +1,5 @@
-import {Title} from "../../components/Title";
-import styles from "./NotFound.module.scss";
+import { Title } from '../../components/Title';
+import styles from './NotFound.module.scss';
 
 export const NotFound = () => {
   return (

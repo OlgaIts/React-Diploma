@@ -1,8 +1,8 @@
-import {memo} from "react";
-import {Title} from "../Title";
-import {FooterNav} from "./components";
-import classNames from "classnames";
-import styles from "./Footer.module.scss";
+import { memo } from 'react';
+import { Title } from '../Title';
+import { FooterNav } from './components';
+import classNames from 'classnames';
+import styles from './Footer.module.scss';
 
 export const Footer = memo(() => {
   return (
@@ -57,4 +57,4 @@ export const Footer = memo(() => {
   );
 });
 
-Footer.displayName = "Footer";
+Footer.displayName = 'Footer';

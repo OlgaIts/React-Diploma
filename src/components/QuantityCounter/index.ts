@@ -1,1 +1,1 @@
-export {QuantityCounter} from "./QuantityCounter";
+export { QuantityCounter } from './QuantityCounter';
