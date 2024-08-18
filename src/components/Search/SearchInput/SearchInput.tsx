@@ -1,7 +1,7 @@
 import { memo, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import classNames from 'classnames';
-import useDebounce from '../../../hooks/useDebounce';
+import useDebounce from '@hooks/useDebounce';
 import styles from './SearchInput.module.scss';
 
 export interface InputSearchProps {

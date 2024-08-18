@@ -1,8 +1,8 @@
 import { memo } from 'react';
-import { useGetTopSales } from '../../../../hooks/useGetTopSales';
-import { Title } from '../../../../components/Title';
-import { ItemsList } from '../../../../components/ItemsList';
-import { Preloader } from '../../../../components/Preloader';
+import { useGetTopSales } from '@hooks/useGetTopSales';
+import { ItemsList } from '@components/ItemsList';
+import { Preloader } from '@components/Preloader';
+import { Title } from '@components/Title';
 
 export const TopSales = memo(() => {
   const { list, isLoading } = useGetTopSales();

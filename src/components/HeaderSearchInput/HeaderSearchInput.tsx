@@ -1,6 +1,6 @@
 import { memo, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { IconSearchInput } from '../Search';
+import { IconSearchInput } from '@components/Search';
 
 export const HeaderSearchInput = memo(() => {
   const [value, setValue] = useState('');

@@ -1,3 +1,19 @@
 .section {
- min-height: var(--height);
+  min-height: var(--height);
+}
+
+.wrapper {
+  display: flex;
+}
+
+.img {
+  width: 900px;
+  margin-bottom: 50px;
+}
+
+.not {
+  margin-top: -55px;
+  margin-left: -220px;
+  font: var(--fw-bold) 300px var(--ff);
+  color: var(--color);
 }

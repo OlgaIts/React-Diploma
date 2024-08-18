@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useErrorCatcher } from './useErrorCatcher';
-import { services } from '../api/services/service';
+import { services } from '@api/services/service';
 import { useAppDispatch, useAppSelector } from './reduxHooks';
 import {
   productsRequested,

@@ -19,7 +19,6 @@ export const IconSearchInput = memo(
     const onBlur = (e: FocusEvent<HTMLInputElement>) => {
       const { value } = e.target;
       console.log(e.target.value);
-      // TODO: сделать хук useClickOutside
       if (value === '') {
         setOpen(false);
       }

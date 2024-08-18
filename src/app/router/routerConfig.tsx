@@ -1,11 +1,11 @@
 import { RouteProps } from 'react-router-dom';
-import { AboutPage } from '../../pages/AboutPage/AboutPage';
-import { StartPage } from '../../pages/StartPage/StartPage';
-import { NotFound } from '../../pages/NotFound';
-import { ContactsPage } from '../../pages/ContactsPage';
-import { CartPage } from '../../pages/CartPage';
-import { CatalogPage } from '../../pages/CatalogPage';
-import { ProductPage } from '../../pages/ProductPage';
+import { AboutPage } from '@pages/AboutPage/AboutPage';
+import { StartPage } from '@pages/StartPage/StartPage';
+import { NotFound } from '@pages/NotFound';
+import { ContactsPage } from '@pages/ContactsPage';
+import { CartPage } from '@pages/CartPage';
+import { CatalogPage } from '@pages/CatalogPage';
+import { ProductPage } from '@pages/ProductPage';
 
 export enum AppRoutes {
   HOME = 'home',

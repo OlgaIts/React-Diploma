@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { services } from '../api/services/service';
+import { services } from '@api/services/service';
 import { useErrorCatcher } from './useErrorCatcher';
 
 export const useGetTopSales = () => {

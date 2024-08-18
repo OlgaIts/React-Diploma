@@ -1,4 +1,4 @@
-import { Title } from '../../components/Title';
+import { Title } from '@components/Title';
 import styles from './AboutPage.module.scss';
 
 export const AboutPage = () => {

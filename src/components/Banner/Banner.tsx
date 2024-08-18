@@ -1,6 +1,6 @@
 import { memo } from 'react';
-import { Title } from '../Title';
-import img from '../../img/banner.jpg';
+import { Title } from '@components/Title';
+import img from '@img/banner.jpg';
 import styles from './Banner.module.scss';
 
 export const Banner = memo(() => {

@@ -1,14 +1,14 @@
 import { memo, useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import classNames from 'classnames';
 import { v4 as uuidv4 } from 'uuid';
-import { CartItem, addProduct } from '../../../../app/redux/slices/cartSlice';
-import { Product } from '../../../../types/product';
-import { Title } from '../../../../components/Title';
-import { QuantityCounter } from '../../../../components/QuantityCounter';
-import { Button } from '../../../../components/Button';
+import { CartItem, addProduct } from '@app/redux/slices/cartSlice';
+import { useAppDispatch } from '@hooks/reduxHooks';
+import { Product } from 'types/product';
+import { Title } from '@components/Title';
+import { QuantityCounter } from '@components/QuantityCounter';
+import { Button } from '@components/Button';
 import styles from './ProductCard.module.scss';
-import { useAppDispatch } from '../../../../hooks/reduxHooks';
-import { useNavigate } from 'react-router-dom';
 
 interface Props {
   product: Product;

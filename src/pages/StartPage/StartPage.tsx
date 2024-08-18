@@ -1,7 +1,7 @@
 import { memo } from 'react';
+import { Title } from '@components/Title';
+import { Catalog } from '@pages/CatalogPage/components';
 import { TopSales } from './components';
-import { Title } from '../../components/Title';
-import { Catalog } from '../CatalogPage/components';
 
 export const StartPage = memo(() => {
   return (

@@ -1,6 +1,6 @@
 import { memo } from 'react';
-import { Title } from '../../components/Title';
-import { Catalog } from './components/';
+import { Title } from '@components/Title';
+import { Catalog } from './components';
 import styles from './CatalogPage.module.scss';
 
 export const CatalogPage = memo(() => {

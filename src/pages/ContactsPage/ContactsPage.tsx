@@ -1,5 +1,5 @@
 import { memo } from 'react';
-import { Title } from '../../components/Title';
+import { Title } from '@components/Title';
 import styles from './ContactsPage.module.scss';
 
 export const ContactsPage = memo(() => {

@@ -1,7 +1,7 @@
 import { memo } from 'react';
 import { useParams } from 'react-router-dom';
-import { useGetProduct } from '../../hooks/useGetProduct';
-import { Preloader } from '../../components/Preloader';
+import { useGetProduct } from '@hooks/useGetProduct';
+import { Preloader } from '@components/Preloader';
 import { ProductCard } from './components/ProductCard/ProductCard';
 import styles from './ProductPage.module.scss';
 

@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Product } from '../types/product';
-import { services } from '../api/services/service';
+import { services } from '@api/services/service';
 import { useErrorCatcher } from './useErrorCatcher';
 
 export const useGetProduct = (id?: number) => {

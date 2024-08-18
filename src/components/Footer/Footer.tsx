@@ -1,7 +1,7 @@
 import { memo } from 'react';
-import { Title } from '../Title';
-import { FooterNav } from './components';
 import classNames from 'classnames';
+import { Title } from '@components/Title';
+import { FooterNav } from './components';
 import styles from './Footer.module.scss';
 
 export const Footer = memo(() => {
@@ -56,5 +56,4 @@ export const Footer = memo(() => {
     </footer>
   );
 });
-
 Footer.displayName = 'Footer';

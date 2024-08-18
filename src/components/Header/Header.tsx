@@ -1,10 +1,10 @@
 import { memo } from 'react';
 import { Link } from 'react-router-dom';
-import { useAppSelector } from '../../hooks/reduxHooks';
-import { RootState } from '../../app/redux/store';
-import { Nav } from '../Nav/Nav';
-import { HeaderSearchInput } from '../HeaderSearchInput';
-import logo from '../../img/header-logo.png';
+import { useAppSelector } from '@hooks/reduxHooks';
+import { RootState } from '@app/redux/store';
+import { Nav } from '@components/Nav/Nav';
+import { HeaderSearchInput } from '@components/HeaderSearchInput';
+import logo from '@img/header-logo.png';
 import styles from './Header.module.scss';
 
 export const Header = memo(() => {

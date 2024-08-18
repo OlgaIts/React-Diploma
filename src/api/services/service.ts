@@ -1,4 +1,3 @@
-import { CartItem } from '@app/redux/slices/cartSlice';
 import { url } from '../consts';
 
 interface SentItem {

@@ -1,7 +1,7 @@
 import { useSearchParams } from 'react-router-dom';
 import classNames from 'classnames';
-import { useAppSelector } from '../../../../hooks/reduxHooks';
-import { useGetCategories } from '../../../../hooks/useGetCategories';
+import { useAppSelector } from '@hooks/reduxHooks';
+import { useGetCategories } from '@hooks/useGetCategories';
 import styles from './CategoriesList.module.scss';
 
 type Item = {

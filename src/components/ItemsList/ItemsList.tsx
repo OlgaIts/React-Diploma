@@ -1,5 +1,5 @@
-import { Product } from '../../types/product';
-import { Button } from '../Button';
+import { Button } from '@components/Button';
+import { Product } from 'types/product';
 import styles from './ItemsList.module.scss';
 
 interface ItemsListProps {
