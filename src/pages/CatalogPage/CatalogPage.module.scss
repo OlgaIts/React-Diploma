@@ -1,4 +1,4 @@
 .catalog {
-  min-height: 600px;
+  min-height: calc(var(--height) * 2);
   margin: 0 auto calc(var(--gap) * 3) auto;
 }

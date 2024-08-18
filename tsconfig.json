@@ -7,8 +7,19 @@
     "esModuleInterop": true,
     "strict": true,
     "allowJs": true,
-    "lib": ["dom", "es2015"],
+    "lib": ["dom", "es2016"],
+    "types": ["vite-plugin-svgr/client"],
     "jsx": "react-jsx",
-    "plugins": [{"name": "typescript-plugin-css-modules"}]
+    "plugins": [{ "name": "typescript-plugin-css-modules" }],
+    "baseUrl": "./src",
+    "paths": {
+      "@img/*": ["/img/*"],
+      "@app/*": ["app/*"],
+      "@api/*": ["api/*"],
+      "@pages/*": ["pages/*"],
+      "@types/*": ["types/*"],
+      "@hooks/*": ["hooks/*"],
+      "@components/*": ["components/*"]
+    }
   }
 }

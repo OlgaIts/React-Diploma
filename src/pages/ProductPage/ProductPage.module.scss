@@ -1,5 +1,5 @@
 .wrapper {
-  min-height: 300px;
+  min-height: var(--height);
   display: grid;
   place-content: center;
 }

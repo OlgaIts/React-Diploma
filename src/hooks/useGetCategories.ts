@@ -1,14 +1,10 @@
 import { useEffect, useState } from 'react';
 import { services } from '../api/services/service';
+import { useErrorCatcher } from './useErrorCatcher';
 
 export const useGetCategories = () => {
   const [categoriesList, setCategoriesList] = useState([]);
-  const [error, setError] = useState(null);
-
-  const errorCatcher = (error: any) => {
-    const { message } = error.response.data;
-    setError(message);
-  };
+  const { error, errorCatcher } = useErrorCatcher();
 
   const getCategories = async () => {
     try {

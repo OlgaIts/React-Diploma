@@ -1,19 +1,27 @@
 import { memo, useEffect, useState } from 'react';
 import classNames from 'classnames';
 import { v4 as uuidv4 } from 'uuid';
-import { CartItem } from '../../../../app/redux/slices/cartSlice';
+import { CartItem, addProduct } from '../../../../app/redux/slices/cartSlice';
 import { Product } from '../../../../types/product';
 import { Title } from '../../../../components/Title';
 import { QuantityCounter } from '../../../../components/QuantityCounter';
 import { Button } from '../../../../components/Button';
 import styles from './ProductCard.module.scss';
+import { useAppDispatch } from '../../../../hooks/reduxHooks';
+import { useNavigate } from 'react-router-dom';
 
 interface Props {
   product: Product;
 }
 export const ProductCard = memo(({ product }: Props) => {
-  const [item, setItem] = useState<CartItem>({ product, quantity: 1 });
+  const [item, setItem] = useState<CartItem>({
+    product,
+    count: 1,
+    size: '',
+  });
   const [sizeSelected, setSizeSelected] = useState(false);
+  const navigate = useNavigate();
+  const dispatch = useAppDispatch();
 
   const handleChooseSize = (size: string) => {
     setItem((prev) => ({ ...prev, size }));
@@ -21,15 +29,12 @@ export const ProductCard = memo(({ product }: Props) => {
   };
 
   const addToCart = () => {
-    localStorage.setItem('cart', JSON.stringify(item));
+    dispatch(addProduct(item));
+    navigate('/cart');
   };
 
-  useEffect(() => {
-    console.log(item);
-  }, [item]);
-
-  const quantityChange = (quantity: number) => {
-    setItem((prev) => ({ ...prev, quantity }));
+  const quantityChange = (count: number) => {
+    setItem((prev) => ({ ...prev, count }));
   };
 
   return (
@@ -78,11 +83,10 @@ export const ProductCard = memo(({ product }: Props) => {
             <QuantityCounter onChange={quantityChange} />
           </div>
           <Button
-            to='/cart'
-            tag='Link'
+            tag='button'
             toCart
             onClick={addToCart}
-            disabled={!sizeSelected}
+            disabledCart={!sizeSelected}
           >
             В корзину
           </Button>

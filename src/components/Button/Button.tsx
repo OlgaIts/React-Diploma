@@ -11,7 +11,9 @@ interface ButtonProps {
   to?: string;
   toCart?: boolean;
   withBorder?: boolean;
+  disabledCart?: boolean;
   disabled?: boolean;
+  type?: 'button' | 'submit';
 }
 export const Button = ({
   children,
@@ -21,10 +23,13 @@ export const Button = ({
   tag = 'button',
   toCart,
   withBorder,
+  disabledCart,
   disabled,
+  type,
 }: ButtonProps) => {
   const allStyles = classNames(
     styles.component,
+    { [styles.disabledCart]: disabledCart },
     { [styles.disabled]: disabled },
     { [styles.cart]: toCart },
     { [styles.with_border]: withBorder },
@@ -38,7 +43,7 @@ export const Button = ({
           {children}
         </Link>
       ) : (
-        <button className={allStyles} onClick={onClick}>
+        <button className={allStyles} onClick={onClick} type={type}>
           {children}
         </button>
       )}

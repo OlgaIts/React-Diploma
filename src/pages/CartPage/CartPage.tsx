@@ -1,95 +1,81 @@
 import { memo } from 'react';
-import { Title } from '../../components/Title';
-import { Button } from '../../components/Button';
-import { Table } from '../../components/Table';
+import { useAppDispatch, useAppSelector } from '@hooks/reduxHooks';
+import { removeProduct } from '@app/redux/slices/cartSlice';
 import { COLUMNS as columns } from './consts';
 import { TableCartItem } from './types';
+import { Title } from '@components/Title';
+import { Button } from '@components/Button';
+import { Table } from '@components/Table';
+import { CartEmpty, CheckoutForm, SuccessOrder } from './components';
 import styles from './CartPage.module.scss';
 
-const data: TableCartItem[] = [
-  {
-    number: '1',
-    title: 'Босоножки',
-    size: '18 US',
-    quantity: 1,
-    price: '34 000 руб.',
-    total: '34 000 руб',
-  },
-];
+interface TableData {
+  productsList: TableCartItem[];
+  total: number;
+}
 
 export const CartPage = memo(() => {
-  const onClick = (item: TableCartItem) => {
-    // delete item
-    console.log(item);
+  const products = useAppSelector(({ cart }) => cart.items);
+  const status = useAppSelector(({ cart }) => cart.orderStatus);
+  const dispatch = useAppDispatch();
+
+  const deleteProduct = (item: TableCartItem) => {
+    dispatch(removeProduct(item));
   };
 
-  const tableData = data.map((item) => ({
-    ...item,
-    actions: () => (
-      <Button
-        tag='button'
-        className={styles.btn_delete}
-        onClick={() => onClick(item)}
-      >
-        Удалить
-      </Button>
-    ),
-  }));
+  const tableData: TableData = products.reduce(
+    (acc: TableData, { product, count, size }, index) => {
+      const item = {
+        id: product.id,
+        number: index + 1,
+        price: `${product.price} руб.`,
+        count,
+        size,
+        title: product.title,
+        total: `${product.price * count} руб.`,
+      };
+
+      const actions = () => (
+        <Button
+          tag='button'
+          className={styles.btn_delete}
+          onClick={() => deleteProduct(item)}
+        >
+          Удалить
+        </Button>
+      );
+      acc.productsList.push({ ...item, actions });
+      acc.total = acc.total + product.price * count;
+      return acc;
+    },
+    { productsList: [], total: 0 },
+  );
+
+  if (products.length === 0) {
+    return status === 'success' ? <SuccessOrder /> : <CartEmpty />;
+  }
 
   return (
     <main>
       <Title tag='h2' isCentered>
         Корзина
       </Title>
-
       <section>
         <Table
           columns={columns}
-          data={tableData}
-          footer={{ title: 'Игого', titleSpan: 5, value: '34 руб' }} // дописать вынести футер в переменную
+          data={tableData.productsList}
+          footer={{
+            title: 'Игого',
+            titleSpan: 5,
+            value: `${tableData.total} руб.`,
+          }}
         />
       </section>
-
       <Title tag='h2' isCentered>
         Оформить заказ
       </Title>
       <section className={styles.order}>
-        <form className={styles.form}>
-          <div className={styles.form_group}>
-            <label htmlFor='phone'>Телефон</label>
-            <input
-              className={styles.input}
-              id='phone'
-              placeholder='Ваш телефон'
-            />
-          </div>
-          <div className={styles.form_group}>
-            <label htmlFor='address'>Адрес доставки</label>
-            <input
-              className={styles.input}
-              id='address'
-              placeholder='Адрес доставки'
-            />
-          </div>
-          <div>
-            <input
-              type='checkbox'
-              className={styles.check_input}
-              id='agreement'
-            />
-            <label className={styles.check} htmlFor='agreement'>
-              Согласен с правилами доставки
-            </label>
-          </div>
-          <Button
-            tag='button'
-            withBorder
-            onClick={() => console.log('Оформить')}
-            className={styles.btn}
-          >
-            Оформить
-          </Button>
-        </form>
+        <CheckoutForm />
       </section>
     </main>
   );

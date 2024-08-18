@@ -6,7 +6,8 @@ import {
   productsRequested,
   setCategoryId,
   setProducts,
-  updateProducts,
+  loadMoreProducts,
+  moreProductsRequested,
 } from '../app/redux/slices/productsSlice';
 import { useSearchParams } from 'react-router-dom';
 
@@ -48,18 +49,18 @@ export const useProducts = () => {
     }
   };
 
-  const loadMoreProducts = async () => {
+  const getMoreProducts = async () => {
     try {
       const categoryId = searchParams?.get('categoryId');
       const search = searchParams.get('search');
       const currentOffset = Number(searchParams.get('offset'));
-      dispatch(productsRequested());
+      dispatch(moreProductsRequested());
       const result = await services.getAllProducts(
         (currentOffset + offset).toString(),
         categoryId,
         search,
       );
-      dispatch(updateProducts(result));
+      dispatch(loadMoreProducts(result));
       searchParams.set('offset', (currentOffset + offset).toString());
       setSearchParams(searchParams);
     } catch (error) {
@@ -80,5 +81,5 @@ export const useProducts = () => {
     setSearchParams(searchParams);
   }, []);
 
-  return { loadMoreProducts, searchProducts };
+  return { getMoreProducts, searchProducts };
 };

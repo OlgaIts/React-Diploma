@@ -7,6 +7,7 @@ interface ProductsState {
   error: any;
   categoryId: string;
   showMoreButton: boolean;
+  isLoadingMore: boolean;
 }
 
 const initialState: ProductsState = {
@@ -15,6 +16,7 @@ const initialState: ProductsState = {
   error: null,
   categoryId: '11',
   showMoreButton: true,
+  isLoadingMore: false,
 };
 
 const productsSlice = createSlice({
@@ -25,16 +27,19 @@ const productsSlice = createSlice({
     productsRequested: (state) => {
       state.isLoading = true;
     },
+    moreProductsRequested: (state) => {
+      state.isLoadingMore = true;
+    },
     // dispatch(setProducts(products)) -> action.payload = products
     setProducts: (state, action) => {
       state.showMoreButton = action.payload.length < 6 ? false : true;
       state.products = action.payload;
       state.isLoading = false;
     },
-    updateProducts: (state, action) => {
+    loadMoreProducts: (state, action) => {
       state.showMoreButton = action.payload.length < 6 ? false : true;
       state.products = state.products.concat(action.payload);
-      state.isLoading = false;
+      state.isLoadingMore = false;
     },
     productsRequestFailed: (state) => {
       state.error;
@@ -47,8 +52,9 @@ const productsSlice = createSlice({
 });
 export const {
   productsRequested,
+  moreProductsRequested,
   setProducts,
-  updateProducts,
+  loadMoreProducts,
   productsRequestFailed,
   setCategoryId,
 } = productsSlice.actions;

@@ -49,8 +49,14 @@ export const Table = memo(
         <tbody>
           {data.map((item: T, key: number) => (
             <tr key={key} className={styles.row}>
-              {Object.keys(columns).map((header) => (
-                <td className={styles.col} key={header}>
+              {Object.keys(columns).map((header, index) => (
+                <td
+                  className={classNames(
+                    styles.col,
+                    index === 1 ? styles.title : '',
+                  )}
+                  key={header}
+                >
                   {item?.[header]
                     ? typeof item[header] === 'function'
                       ? item[header]()

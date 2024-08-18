@@ -1,0 +1,30 @@
+.component {
+  min-height: var(--height);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+p {
+  font: var(--fw-regular) 20px var(--ff);
+  color: var(--title-color);
+}
+
+.icon {
+  margin-bottom: 20px;
+  width: 80px;
+}
+
+.title {
+  margin-bottom: 50px;
+}
+
+.text {
+  margin-top: 10px;
+  font-weight: var(--fw-bold);
+}
+
+.btn {
+  margin-top: 50px;
+}

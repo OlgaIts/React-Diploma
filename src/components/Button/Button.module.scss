@@ -32,9 +32,15 @@
   }
 }
 
-.disabled {
+.disabledCart {
   cursor: not-allowed;
   pointer-events: none;
   background-color: var(--accent-color);
   border: 1px solid var(--accent-color);
+}
+
+.disabled {
+  cursor: not-allowed;
+  pointer-events: none;
+  background-color: var(--border-color);
 }

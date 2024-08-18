@@ -92,6 +92,7 @@ router.get("/api/items/:id", async (ctx, next) => {
 });
 
 router.post("/api/order", async (ctx, next) => {
+  console.log('Полученные данные:', ctx.request.body);
   const {
     owner: {phone, address},
     items,

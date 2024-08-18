@@ -1,15 +1,11 @@
 import { useEffect, useState } from 'react';
 import { services } from '../api/services/service';
+import { useErrorCatcher } from './useErrorCatcher';
 
 export const useGetTopSales = () => {
   const [list, setList] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
-  const [error, setError] = useState(null);
-
-  const errorCatcher = (error: any) => {
-    const { message } = error.response.data;
-    setError(message);
-  };
+  const { errorCatcher } = useErrorCatcher();
 
   const getItems = async () => {
     try {
@@ -25,5 +21,5 @@ export const useGetTopSales = () => {
   useEffect(() => {
     getItems();
   }, []);
-  return { list, isLoading, error };
+  return { list, isLoading };
 };

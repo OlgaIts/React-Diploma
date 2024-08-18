@@ -1,10 +1,11 @@
 import { ReactNode } from 'react';
 
 export interface TableCartItem {
-  number: string;
+  id: number;
+  number: number;
   title: string;
   size: string;
-  quantity: number;
+  count: number;
   price: string;
   total: string;
   actions?: () => ReactNode;

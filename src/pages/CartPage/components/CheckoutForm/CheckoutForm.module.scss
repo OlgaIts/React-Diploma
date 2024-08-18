@@ -1,0 +1,49 @@
+.form {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: calc(var(--padding) * 2);
+  padding: calc(var(--padding) * 2);
+  color: var(--title-color);
+  border: var(--border);
+  border-radius: var(--radius);
+}
+
+.form_group {
+  display: flex;
+  flex-direction: column;
+  gap: var(--padding);
+}
+
+.input {
+  padding: var(--padding);
+  font-size: 14px;
+  border: var(--border);
+  border-radius: var(--radius);
+
+  &::placeholder {
+    color: var(--color);
+  }
+}
+
+// .number_input::-webkit-outer-spin-button,
+// .number_input::-webkit-inner-spin-button {
+//   -webkit-appearance: none;
+// }
+
+// .number_input[type='number'] {
+//   -moz-appearance: textfield;
+// }
+
+.check {
+  margin-left: 5px;
+}
+
+.btn {
+  width: 100px;
+}
+
+.error {
+  font: var(--fw-regular) 12px var(--ff);
+  color: var(--active-color);
+}

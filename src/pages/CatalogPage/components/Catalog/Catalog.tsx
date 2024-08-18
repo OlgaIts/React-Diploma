@@ -13,12 +13,19 @@ interface CatalogProps {
 }
 
 export const Catalog = memo(({ showSearch }: CatalogProps) => {
-  const { loadMoreProducts, searchProducts } = useProducts();
+  const { getMoreProducts, searchProducts } = useProducts();
   const list = useAppSelector(({ products }) => products.products);
   const showMoreButton = useAppSelector(
     ({ products }) => products.showMoreButton,
   );
   const isLoading = useAppSelector(({ products }) => products.isLoading);
+  const isLoadingMore = useAppSelector(
+    ({ products }) => products.isLoadingMore,
+  );
+
+  if (isLoading) {
+    return <Preloader />;
+  }
 
   return (
     <>
@@ -31,10 +38,10 @@ export const Catalog = memo(({ showSearch }: CatalogProps) => {
       )}
       <CategoriesList />
       <ItemsList list={list} />
-      {isLoading && <Preloader />}
-      {showMoreButton && (
+      {isLoadingMore && <Preloader />}
+      {showMoreButton && !isLoadingMore && (
         <div className={styles.btn_wrap}>
-          <Button tag='button' withBorder onClick={loadMoreProducts}>
+          <Button tag='button' withBorder onClick={getMoreProducts}>
             Загрузить ещё
           </Button>
         </div>
