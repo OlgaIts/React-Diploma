@@ -6,6 +6,7 @@
   "license": "ISC",
   "type": "module",
   "private": true,
+  "homepage": "https://OlgaIts.github.io/React-Diploma/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
